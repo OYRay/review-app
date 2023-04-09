@@ -14,14 +14,29 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #b3cbf3;
+}
+
+.App-menu {
+  background-color: #b3cbf3;
+}
+
+.customMenu .ant-menu-item {
+  background-color:  #b3cbf3;
+  color: #6785b7 !important;
+
+}
+
+/* Override the background color and text color of a menu item when hovered */
+.customMenu .ant-menu-item:hover {
+  background-color: #a1beef;
+  color: #ffffff;
+}
+
+/* Override the background color and text color of a selected menu item */
+.customMenu .ant-menu-item-selected {
+  background-color:  #b3cbf3 !important;
+  color: #ffffff !important;
 }
 
 .App-link {
@@ -36,3 +51,29 @@
     transform: rotate(360deg);
   }
 }
+
+.searchButton {
+  background-color: #4caf50 !important;
+  border-color: #4caf50 !important;
+}
+
+.searchButton:hover {
+  background-color: #3c9d40 !important;
+  border-color: #3c9d40 !important;
+}
+
+.searchOptionButton {
+  background-color: #b3cbf3;
+  color: white;
+  font-size: 16px;
+  border: none;
+  transition: 0.3s;
+}
+
+.searchOptionButton:hover {
+  /* background-color: #b1a4fa; */
+  color: rgb(134, 134, 134);
+  cursor: pointer;
+}
+
+/* .ant-btn css-dev-only-do-not-override-1vtf12y ant-btn-primary ant-btn-lg ant-input-search-button" */
