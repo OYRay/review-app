@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #b3cbf3;
+}
+
+.App-menu {
+  background-color: #b3cbf3;
+}
+
+.customMenu .ant-menu-item {
+  background-color:  #b3cbf3;
+  color: #6785b7 !important;
+}
+
+/* Override the background color and text color of a menu item when hovered */
+.customMenu .ant-menu-item:hover {
+  background-color: #a1beef;
+  color: #ffffff;
+}
+
+/* Override the background color and text color of a selected menu item */
+.customMenu .ant-menu-item-selected {
+  background-color:  #b3cbf3 !important;
+  color: #ffffff !important;
+  font-weight: bold;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.searchButton {
+  background-color: #4caf50 !important;
+  border-color: #4caf50 !important;
+}
+
+.searchButton:hover {
+  background-color: #3c9d40 !important;
+  border-color: #3c9d40 !important;
+}
+
+.searchOptionButton {
+  background-color: #b3cbf3;
+  color: white;
+  font-size: 16px;
+  border: none;
+  transition: 0.3s;
+}
+
+.searchOptionButton:hover {
+  /* background-color: #b1a4fa; */
+  color: rgb(134, 134, 134);
+  cursor: pointer;
+}
+
+/* .ant-btn css-dev-only-do-not-override-1vtf12y ant-btn-primary ant-btn-lg ant-input-search-button" */
+
+.centered-title {
+  text-align: center;
+  align-items: center;
+}
+
+.centered-content {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.pie-chart-cell:focus {
+  outline: none;
+}
+
+.chatbot-modal .ant-modal {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  top: auto;
+  left: auto;
+  width: auto;
+  margin: 0;
+}
+
+.chatbot-modal .ant-modal-body {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+/* .chatbot-modal .ant-modal-header {
+  background: #007bff;  
+  color: white;
+} */
+.custom-button {
+  /* Change button size */
+  width: 100px;  /* or whatever size you want */
+  height: 100px; /* or whatever size you want */
+
+  /* Change button color */
+  background-color: rgba(255, 0, 0, 0)(255, 255, 255); /* or whatever color you want */
+}
+
+.custom-button:hover {
+  /* Change button color on hover */
+  background-color: rgba(0, 0, 255, 0)(255, 255, 255); /* or whatever color you want */
+}
+
+.image-icon {
+  transition: all 0.3s ease;
+}
+
+.image-icon:hover {
+  filter: brightness(110%);
+}
+

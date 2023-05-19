@@ -1,0 +1,122 @@
+{
+    "Singapore Zoo": {
+        "all": {
+            "overallSentiment": 4.5,
+            "reviewNum": 12030,            
+            "aspectSentiment": {"scene": 3, "price": 3, "experience": 2, "food": 1, "traffic": 3},
+            "visitorType": {"family": 34, "single": 45, "couple": 25},
+            "visitorLocation": {
+                "Bangladesh": 12,
+                "Canada": 55,
+                "Australia": 37,
+                "Singapore": 28,
+                "Other": 121
+            },
+            "rating" : {
+                "Excellent": 10565,
+                "Very good" : 2854,
+                "Average": 436,            
+                "Poor": 40,
+                "Terrible": 7
+            }
+        },
+        "week": {
+            "overallSentiment": 5,
+            "reviewNum": 20,
+            "aspectSentiment": {"scene": 3, "price": 3, "experience": 2, "food": 1, "traffic": 3},
+            "visitorType": {"family": 34, "single": 45, "couple": 25},
+            "visitorLocation": {
+                "Bangladesh": 12,
+                "Canada": 55,
+                "Australia": 37,
+                "Singapore": 28,
+                "Other": 121
+            },
+            "rating" : {
+                "Excellent": 10565,
+                "Very good" : 2854,
+                "Average": 436,            
+                "Poor": 40,
+                "Terrible": 7
+            }
+        },
+        "month":{
+            "overallSentiment": 4,
+            "reviewNum": 200,
+            "aspectSentiment": {"scene": 1, "price": 1, "experience": 2, "food": 2, "traffic": 3},
+            "visitorType": {"family": 64, "single": 55, "couple": 125},
+            "visitorLocation": {
+                "Bangladesh": 12,
+                "Canada": 55,
+                "Australia": 37,
+                "Singapore": 28,
+                "Other": 121
+            },
+            "rating" : {
+                "Excellent": 10565,
+                "Very good" : 2854,
+                "Average": 436,            
+                "Poor": 40,
+                "Terrible": 7
+            }
+        },
+        "halfYear":{
+            "overallSentiment": 3,
+            "reviewNum": 600,
+            "aspectSentiment": {"scene": 1, "price": 3, "experience": 2, "food": 1, "traffic": 3},
+            "visitorType": {"family": 126, "single": 134, "couple": 230},
+            "visitorLocation": {
+                "Bangladesh": 12,
+                "Canada": 55,
+                "Australia": 37,
+                "Singapore": 28,
+                "Other": 121
+            },
+            "rating" : {
+                "Excellent": 10565,
+                "Very good" : 2854,
+                "Average": 436,            
+                "Poor": 40,
+                "Terrible": 7
+            }
+        },
+        "year":{
+            "overallSentiment": 4.5,
+            "reviewNum": 8600,
+            "aspectSentiment": {"scene": 3, "price": 3, "experience": 2, "food": 2, "traffic": 3},
+            "visitorType": {"family": 126, "single": 134, "couple": 230},
+            "visitorLocation": {
+                "Bangladesh": 23,
+                "Canada": 155,
+                "Australia": 137,
+                "Singapore": 218,
+                "Other": 111
+            },
+            "rating" : {
+                "Excellent": 7056,
+                "Very good" : 1285,
+                "Average": 436,            
+                "Poor": 40,
+                "Terrible": 7
+            }
+        }
+ 
+        
+    },
+
+    "Clarke Quay": {
+        "week": {
+            "overallSentiment": 5,
+            "aspectSentiment": {"scene": 3, "price": 3, "experience": 2, "food": 1, "traffic": 3}
+        },
+        "month":{
+            "overallSentiment": 4,
+            "aspectSentiment": {"scene": 1, "price": 3, "experience": 2, "food": 1, "traffic": 3}
+        },
+        "halfYear":{
+            "overallSentiment": 3,
+            "aspectSentiment": {"scene": 2, "price": 3, "experience": 1, "food": 1, "traffic": 3}
+        }
+    }
+
+}
