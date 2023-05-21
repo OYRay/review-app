@@ -639,7 +639,7 @@
                 "Environment": 2.59,
                 "Light and Sound Shows": 2.54,
                 "Botanic Features": 2.67,
-                "General Experience": 2.7
+                "Experience": 2.7
             }
         },
         "last two years": {
@@ -693,7 +693,7 @@
                 "Environment": 2.33,
                 "Light and Sound Shows": 2.61,
                 "Botanic Features": 2.61,
-                "General Experience": 2.68
+                "Experience": 2.68
             }
         },
         "last five years": {
@@ -747,7 +747,7 @@
                 "Environment": 2.62,
                 "Light and Sound Shows": 2.56,
                 "Botanic Features": 2.67,
-                "General Experience": 2.7
+                "Experience": 2.7
             }
         }
     },
@@ -1109,7 +1109,7 @@
                 "Transportation & Accessibility": 2.27,
                 "Cleanliness": 2.9,
                 "Photography": 2.79,
-                "General Experience": 2.73,
+                "Experience": 2.73,
                 "View": 2.62
             }
         },
@@ -1158,7 +1158,7 @@
                 "Transportation & Accessibility": 3.0,
                 "Cleanliness": 3.0,
                 "Photography": 3.0,
-                "General Experience": 3.0,
+                "Experience": 3.0,
                 "View": 2.17
             }
         },
@@ -1212,7 +1212,7 @@
                 "Transportation & Accessibility": 2.34,
                 "Cleanliness": 3.0,
                 "Photography": 2.89,
-                "General Experience": 2.73,
+                "Experience": 2.73,
                 "View": 2.57
             }
         }
@@ -2649,7 +2649,7 @@
             },
             "aspectSentiment": {
                 "Exhibits": 3.0,
-                "General Experience": 2.4,
+                "Experience": 2.4,
                 "Transportation & Accessibility": 2.69,
                 "Flora and Nature": 2.68,
                 "Animal Interactions": 2.35
@@ -2698,7 +2698,7 @@
                 "1": 5
             },
             "aspectSentiment": {
-                "General Experience": 2.54,
+                "Experience": 2.54,
                 "Flora and Nature": 2.43,
                 "Animal Interactions": 2.53
             }
@@ -2750,7 +2750,7 @@
                 "1": 64
             },
             "aspectSentiment": {
-                "General Experience": 2.4,
+                "Experience": 2.4,
                 "Transportation & Accessibility": 2.95,
                 "Flora and Nature": 2.68,
                 "Animal Interactions": 2.33

@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
-// import '../APP.css'
+import "../App.css";
 import "@chatscope/chat-ui-kit-styles/dist/default/styles.min.css";
+import { useNavigate } from "react-router-dom";
+import { Button } from "antd";
+
 
 import { MainContainer, ChatContainer, MessageList, Message, MessageInput, TypingIndicator } from '@chatscope/chat-ui-kit-react';
 import Features from '../data/FeatureData';
@@ -11,9 +14,8 @@ const gptAPI = "https://api.openai.com/v1/completions";
 
 
 const Chatbot = () => {
-    // const [state, setState] = useState('Start');
-    // const [userInput, setUserInput] = useState('');
-    // const [responses, setResponses] = useState([]);
+    const navigate  = useNavigate();
+
     const [typing, setTyping] = useState(false);
     const [messages, setMessages] = useState([
     {   
@@ -25,6 +27,10 @@ Let's get started, shall we?`,
         sender: "Advisor"
     }
     ])
+
+    const handleSelect = (value) => {
+        navigate(`/result/${value}`);
+      };
     
     const callGptApi = async (message) => {
 
@@ -96,7 +102,7 @@ Action list: ${ChatbotState.map(s => "action: " + s.action + " description: " + 
 
         if (actionType === "RequirPlace") {
             const prompt_text = 'User requirements: ' + message + 
-                    " Select two places that fit requirements from list, return only two places names separated by ',',  place list" + 
+                    " Select two places that fit requirements from list, return only two places names separated by ',',  places list" + 
                     Features.map(f => f.place + " : [" + f.features.join(', ') + "]").join(', ')
             const gptResponse =  await fetch(
                 gptAPI,
@@ -124,12 +130,14 @@ Action list: ${ChatbotState.map(s => "action: " + s.action + " description: " + 
                 // get place name and generate response
                 let randomIndex = Math.floor(Math.random() * actionObject.response.length);
                 const predefinedResponse =  actionObject.response[randomIndex];
-                
-                const links = `<a key={i} href={http://localhost:3000/result/${places[0].trim()}}>${places[0].trim()}</a>,\
- <a key={i} href={http://localhost:3000/result/${places[1].trim()}}>${places[1].trim()}</a>`
+                // alert(places[0])
+                const link_1 = `http://localhost:3000/result/${places[0].trim()}`
+                const link_2 = `http://localhost:3000/result/${places[1].trim()}`
+                // const link_1 = <Button className="searchOptionButton" size='small' onClick={() => handleSelect(places[0].trim())}>${places[0].trim()}</Button>
+                // const link_2 = <Button className="searchOptionButton" size='small' onClick={() => handleSelect(places[1].trim())}>${places[1].trim()} </Button>
 
                 const newMessage = {
-                    message: `${predefinedResponse} ${links}`,
+                    message: `${predefinedResponse} <a href=${link_1}>${places[0].trim()}</a>,  <a href=${link_2}>${places[1].trim()}</a>.`,
                     sender: "Advisor",
                     direction: "incoming"
                 }
