@@ -9,8 +9,7 @@ const {Title} = Typography;
 const { Option } = Select;
 
 
-
-const TagSelection = ({}) => {
+const TagSelection = ({ }) => {
   const navigate  = useNavigate();
 
   const [selectedTags, setSelectedTags] = useState([]);
@@ -26,7 +25,6 @@ const TagSelection = ({}) => {
   };
 
   const handleSearch = () => {
-    // alert(selectedTags);
     const results = FeaturesData.filter((item) =>
       selectedTags.every((tag) => item.features.includes(tag))
     );
@@ -112,11 +110,11 @@ const TagSelection = ({}) => {
                   <Col span={20}>
                     <Row style={{ display: "flex", justifyContent: "space-between", width: "100%", margin: 0}}>
                       <div style={{marginBottom: 20 }}>
-                        <Title onClick={() => handleSelect(item.name)}  level={4}>{item.name}</Title> 
+                        <Title onClick={() => handleSelect(item.place)}  level={4}>{item.place}</Title> 
                       </div>
                     </Row>
                     <Row justify="left" style={{ display: "flex", justifyContent: "left", width: "100%" }}>
-                      {item.tags.map(tag => ( <Tag color={Options[tag]}>{tag}</Tag>))}
+                      {item.features.map(tag => ( <Tag color={Options[tag]}>{tag}</Tag>))}
                     </Row>
                   </Col>
                   

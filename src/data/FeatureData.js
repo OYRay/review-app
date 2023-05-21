@@ -1,7 +1,7 @@
 const FeaturesData = [
   {
-      "place": "Arab Street",
-      "features": [
+       place: "Arab Street",
+       features: [
           "Cleanliness",
           "Culture & Religion",
           "Food",
@@ -12,8 +12,8 @@ const FeaturesData = [
       ]
   },
   {
-      "place": "ArtScience Museum at Marina Bay Sands",
-      "features": [
+       place: "ArtScience Museum at Marina Bay Sands",
+       features: [
           "Cleanliness",
           "Exhibits",
           "History",
@@ -23,8 +23,8 @@ const FeaturesData = [
       ]
   },
   {
-      "place": "Buddha Tooth Relic Temple and Museum",
-      "features": [
+       place: "Buddha Tooth Relic Temple and Museum",
+       features: [
           "Cleanliness",
           "Cultural & Religious",
           "Temple Etiquette & Structure",
@@ -35,8 +35,8 @@ const FeaturesData = [
       ]
   },
   {
-      "place": "Clarke Quay",
-      "features": [
+       place: "Clarke Quay",
+       features: [
           "Activities",
           "Food",
           "Nightlife",
@@ -47,8 +47,8 @@ const FeaturesData = [
       ]
   },
   {
-      "place": "Gardens by the bay",
-      "features": [
+       place: "Gardens by the bay",
+       features: [
           "Botanic Features",
           "Environment",
           "General Experience",
@@ -59,8 +59,8 @@ const FeaturesData = [
       ]
   },
   {
-      "place": "Jurong Bird Park",
-      "features": [
+       place: "Jurong Bird Park",
+       features: [
           "Animal Interaction",
           "Bird Shows & Special Events",
           "Bird Species",
@@ -71,8 +71,8 @@ const FeaturesData = [
       ]
   },
   {
-      "place": "Maxwell Food Centre",
-      "features": [
+       place: "Maxwell Food Centre",
+       features: [
           "Cleanliness",
           "Food Variety",
           "Traditional Cuisine",
@@ -83,8 +83,8 @@ const FeaturesData = [
       ]
   },
   {
-      "place": "Merlion_Park",
-      "features": [
+       place: "Merlion Park",
+       features: [
           "Cleanliness",
           "General Experience",
           "Photography",
@@ -94,8 +94,8 @@ const FeaturesData = [
       ]
   },
   {
-      "place": "Mustafa Centre",
-      "features": [
+       place: "Mustafa Centre",
+       features: [
           "Money Exchange",
           "Pharmacy",
           "Shopping",
@@ -104,8 +104,8 @@ const FeaturesData = [
       ]
   },
   {
-      "place": "National Museum of Singapore",
-      "features": [
+       place: "National Museum of Singapore",
+       features: [
           "Cleanliness",
           "History",
           "Transportation",
@@ -114,8 +114,8 @@ const FeaturesData = [
       ]
   },
   {
-      "place": "National_Orchid_Garden",
-      "features": [
+       place: "National Orchid Garden",
+       features: [
           "Environment",
           "Garden",
           "Historical & Heritage Elements",
@@ -126,16 +126,16 @@ const FeaturesData = [
       ]
   },
   {
-      "place": "Night Safari",
-      "features": [
+       place: "Night Safari",
+       features: [
           "Cleanliness",
           "Transportation",
           "Value for Money"
       ]
   },
   {
-      "place": "Orchard_Road",
-      "features": [
+       place: "Orchard Road",
+       features: [
           "Budget Shopping & Market",
           "High-end Shopping & Designer Brands",
           "Shopping Malls & Department Stores",
@@ -145,8 +145,8 @@ const FeaturesData = [
       ]
   },
   {
-      "place": "River Wonders",
-      "features": [
+       place: "River Wonders",
+       features: [
           "Animal Interaction & Facilities",
           "Cleanliness",
           "Exhibit & Diversity",
@@ -156,8 +156,8 @@ const FeaturesData = [
       ]
   },
   {
-      "place": "Sands_Skypark_Observation_Deck",
-      "features": [
+       place: "Sands Skypark Observation Deck",
+       features: [
           "Cleanliness",
           "Facilities",
           "Service",
@@ -168,8 +168,8 @@ const FeaturesData = [
       ]
   },
   {
-      "place": "Singapore_Botanic_Gardens",
-      "features": [
+       place: "Singapore Botanic Gardens",
+       features: [
           "Activities",
           "Biodiversity",
           "Events",
@@ -180,8 +180,8 @@ const FeaturesData = [
       ]
   },
   {
-      "place": "Singapore Flyer",
-      "features": [
+       place: "Singapore Flyer",
+       features: [
           "Cleanliness",
           "Ride Experience",
           "Transportation",
@@ -191,8 +191,8 @@ const FeaturesData = [
       ]
   },
   {
-      "place": "Singapore_Mass_Rapid_Transit_SMRT",
-      "features": [
+       place: "Singapore Mass Rapid Transit SMRT",
+       features: [
           "Cleanliness",
           "Transportation",
           "Value for Money",
@@ -201,8 +201,8 @@ const FeaturesData = [
       ]
   },
   {
-      "place": "Singapore River",
-      "features": [
+       place: "Singapore River",
+       features: [
           "Cleanliness",
           "Transportation",
           "Value for Money",
@@ -210,8 +210,8 @@ const FeaturesData = [
       ]
   },
   {
-      "place": "Singapore Zoo",
-      "features": [
+       place: "Singapore Zoo",
+       features: [
           "Animal Interactions",
           "Exhibits",
           "Flora and Nature",
