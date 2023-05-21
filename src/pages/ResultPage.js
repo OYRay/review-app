@@ -3,57 +3,14 @@ import { useParams } from "react-router-dom";
 import ErrorPanel from '../components/ErrorPanel';
 import ReviewResultPanel from '../components/ReviewResultPanel';
 import TrendResultPanel from '../components/TrendResultPanel';
-import results from '../data/results.json';
+import ReviewAnalysisData from '../data/ReviewAnalysisData.json';
 import { Col, Select } from 'antd';
 import { AutoComplete, Input, Row, Typography,Card, Button } from "antd";
 import ProgressBar from "../components/ProgressBar";
-import WordCloud from '../components/WordCloud';
 const { Title } = Typography;
 
 
 const { Option } = Select;
-
-
-// const durationOption = [
-//   {
-//     label: "week",
-//     value: "week",
-//     key: '0',
-//   },
-//   {
-//     label: "month",
-//     value: "month",
-//     key: '1',
-//   },
-//   {
-//     label: 'half year',
-//     value: "half-year",
-//     key: '2',
-//   },
-// ];
-
-const data = [
-  { text: 'Zoo', size: 30 },
-  { text: 'Animal', size: 50 },
-  { text: 'Shuttle Bus', size: 40 },
-  { text: 'Feeding', size: 20 },
-  { text: 'Bird', size: 60 },
-  { text: 'Exhibit', size: 45 },
-  { text: 'Rainforest', size: 35 },
-  { text: 'Tram', size: 25 },
-  { text: 'Education', size: 55 },
-  { text: 'Conservation', size: 40 },
-  { text: 'Wildlife', size: 50 },
-  { text: 'Aquarium', size: 30 },
-  { text: 'Reptile', size: 45 },
-  { text: 'Mammal', size: 35 },
-  { text: 'Safari', size: 60 },
-  { text: 'Photography', size: 25 },
-  { text: 'Kids', size: 20 },
-  { text: 'Family', size: 55 },
-  { text: 'Shows', size: 40 },
-  { text: 'Tour', size: 45 },
-];
 
 const ResultPage = () => {
   const { id } = useParams();
@@ -65,7 +22,7 @@ const ResultPage = () => {
   const fetchResults = () => {
     // get result from data
     try {
-      const resultObj = results[id];
+      const resultObj = ReviewAnalysisData[id];
       if (resultObj) {
         setResultData(resultObj);
         setErr(false);
@@ -84,6 +41,7 @@ const ResultPage = () => {
   const handleDurationChange = (value) => {
     setDuration(value);
   };
+
   const reviewAnalysis = () =>{
     return (
       <Row style={{ width: "100%"}} gutter={8} justify="space-between" align="bottom">
@@ -96,10 +54,8 @@ const ResultPage = () => {
             <Col>
               <Select defaultValue="all" style={{ width: 150 }} onChange={handleDurationChange}>
                 <Option value="all">all reviews</Option>
-                <Option value="week">recent week</Option>
-                <Option value="month">recent month</Option>
-                <Option value="halfYear">recent half year</Option>
-                <Option value="year">recent year</Option>
+                <Option value="last two years">recent two years</Option>
+                <Option value="last five years">recent five year</Option>
               </Select>
             </Col>
           </Row>
@@ -114,6 +70,7 @@ const ResultPage = () => {
 
   return (
     <div>
+      
       {loading ? (
         <ProgressBar />
         ) : (
@@ -122,7 +79,6 @@ const ResultPage = () => {
             <Card style={{marginBottom: 15, backgroundColor: '#f9f9f9'}}> 
             <Row>
               <Title>{id}</Title>
-              {/* <WordCloud data={data} /> */}
             </Row>
             <Row>
             </Row>
@@ -142,7 +98,7 @@ const ResultPage = () => {
                 
                 <Card title={<Title level={4}>Trend Analysis</Title>} 
                       style={{backgroundColor: '#f9f9f9'}}> 
-                    <TrendResultPanel />
+                    <TrendResultPanel id={id}/>
                 </Card>
               </Col>
             </Row>

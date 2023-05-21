@@ -3,18 +3,17 @@ import React, { useState } from 'react';
 import "@chatscope/chat-ui-kit-styles/dist/default/styles.min.css";
 
 import { MainContainer, ChatContainer, MessageList, Message, MessageInput, TypingIndicator } from '@chatscope/chat-ui-kit-react';
-import Features from '../data/features';
+import Features from '../data/FeatureData';
 import ChatbotState from '../data/ChatbotState';
 import SearchOptions from '../data/SearchOptions';
 const API_KEY = "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";
 const gptAPI = "https://api.openai.com/v1/completions";
 
 
-// https://platform.openai.com/docs/guides/chat/introduction?ref=blog.streamlit.io
 const Chatbot = () => {
-    const [state, setState] = useState('Start');
-    const [userInput, setUserInput] = useState('');
-    const [responses, setResponses] = useState([]);
+    // const [state, setState] = useState('Start');
+    // const [userInput, setUserInput] = useState('');
+    // const [responses, setResponses] = useState([]);
     const [typing, setTyping] = useState(false);
     const [messages, setMessages] = useState([
     {   
@@ -30,7 +29,7 @@ Let's get started, shall we?`,
     const callGptApi = async (message) => {
 
         const action_prompt_text = `User's message: ${message} \
-You are a bot providing the information of Singapore amusements. Select most suitable action from this list, just return the action name.\
+You are a bot providing the information of Singapore amusements. Select most suitable action from action list, just return the action name.\
 Action list: ${ChatbotState.map(s => "action: " + s.action + " description: " + s.description + ", ")}\
 `
         const gptActionType =  await fetch(
@@ -42,10 +41,10 @@ Action list: ${ChatbotState.map(s => "action: " + s.action + " description: " + 
                 'Content-Type': 'application/json',
             },
             body: JSON.stringify({
-                temperature:0.7,
+                temperature:0.5,
                 model:"text-davinci-003",
                 prompt: action_prompt_text,
-                max_tokens: 32,
+                max_tokens: 256,
             }),
             }
         ).then(response => response.json());
@@ -57,6 +56,8 @@ Action list: ${ChatbotState.map(s => "action: " + s.action + " description: " + 
             // update action type
             actionType = gptActionText;
         }
+        console.log(actionType);
+
 
         const actionObject = ChatbotState.find(obj => obj.action === actionType);
         
@@ -106,7 +107,7 @@ Action list: ${ChatbotState.map(s => "action: " + s.action + " description: " + 
                     'Content-Type': 'application/json',
                 },
                 body: JSON.stringify({
-                    temperature:0.5,
+                    temperature:0,
                     model:"text-davinci-003",
                     prompt: prompt_text,
                     max_tokens: 256,
@@ -117,6 +118,7 @@ Action list: ${ChatbotState.map(s => "action: " + s.action + " description: " + 
             if (gptResponse.choices && gptResponse.choices[0].text) {
                 const gptResponseText = gptResponse.choices[0].text.trim();
                 const places = gptResponseText.split(',');
+                console.log(gptResponseText);
                 
                 setTyping(false);
                 // get place name and generate response
@@ -159,6 +161,7 @@ Action list: ${ChatbotState.map(s => "action: " + s.action + " description: " + 
             
             if (gptResponse.choices && gptResponse.choices[0].text) {
                 const gptResponseText = gptResponse.choices[0].text.trim();
+                console.log(gptResponseText);
                 setTyping(false);
                 // check 
                 const place = SearchOptions.find(place => place.toLocaleLowerCase() === gptResponseText.toLocaleLowerCase());

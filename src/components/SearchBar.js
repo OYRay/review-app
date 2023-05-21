@@ -9,9 +9,9 @@ const SearchBar = ({searchOptions, handleSearch, handleSelect}) => {
   const sampleSearchs = [
     "Singapore Zoo",
     "National Museum of Singapore",
-    "Marina Bay",
+    'Merlion Park',
     "National Orchid Garden",
-    "Chinatown"
+    'Gardens by the Bay',
   ];
 
   

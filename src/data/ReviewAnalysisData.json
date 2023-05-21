@@ -1,0 +1,3072 @@
+{
+    "Arab Street": {
+        "all": {
+            "overallSentiment": 3.97,
+            "reviewNum": 906,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 24,
+                    "rating": 3.96
+                },
+                "Couples": {
+                    "reviewNum": 233,
+                    "rating": 3.97
+                },
+                "Family": {
+                    "reviewNum": 126,
+                    "rating": 4.06
+                },
+                "Friends": {
+                    "reviewNum": 166,
+                    "rating": 4.08
+                },
+                "Solo": {
+                    "reviewNum": 108,
+                    "rating": 3.86
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 836,
+                    "rating": 3.96
+                },
+                "Other": {
+                    "reviewNum": 62,
+                    "rating": 4.11
+                },
+                "Singapore": {
+                    "reviewNum": 8,
+                    "rating": 4.0
+                }
+            },
+            "rating": {
+                "4": 547,
+                "5": 187,
+                "3": 137,
+                "2": 26,
+                "1": 9
+            },
+            "aspectSentiment": {
+                "Food": 2.0,
+                "Culture & Religion": 2.47,
+                "Cleanliness": 2.84,
+                "Shopping": 2.33,
+                "Transportation & Accessibility": 2.34
+            }
+        },
+        "last two years": {
+            "overallSentimentWeek": 3.7,
+            "reviewNum": 10,
+            "visitorType": {
+                "Couples": {
+                    "reviewNum": 2,
+                    "rating": 3.0
+                },
+                "Friends": {
+                    "reviewNum": 1,
+                    "rating": 4.0
+                },
+                "Solo": {
+                    "reviewNum": 1,
+                    "rating": 2.0
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 10,
+                    "rating": 3.7
+                }
+            },
+            "rating": {
+                "4": 4,
+                "5": 3,
+                "1": 1,
+                "2": 1,
+                "3": 1
+            },
+            "aspectSentiment": {
+                "Culture & Religion": 2.33
+            }
+        },
+        "last five years": {
+            "overallSentimentWeek": 3.88,
+            "reviewNum": 116,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 2,
+                    "rating": 4.0
+                },
+                "Couples": {
+                    "reviewNum": 26,
+                    "rating": 3.85
+                },
+                "Family": {
+                    "reviewNum": 15,
+                    "rating": 4.0
+                },
+                "Friends": {
+                    "reviewNum": 18,
+                    "rating": 3.83
+                },
+                "Solo": {
+                    "reviewNum": 20,
+                    "rating": 3.85
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 105,
+                    "rating": 3.85
+                },
+                "Other": {
+                    "reviewNum": 10,
+                    "rating": 4.1
+                },
+                "Singapore": {
+                    "reviewNum": 1,
+                    "rating": 5.0
+                }
+            },
+            "rating": {
+                "4": 73,
+                "5": 19,
+                "3": 18,
+                "1": 3,
+                "2": 3
+            },
+            "aspectSentiment": {
+                "Culture & Religion": 2.38,
+                "Cleanliness": 3.0,
+                "Transportation & Accessibility": 2.17
+            }
+        }
+    },
+    "ArtScience Museum at Marina Bay Sands": {
+        "all": {
+            "overallSentiment": 4.01,
+            "reviewNum": 864,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 18,
+                    "rating": 4.33
+                },
+                "Couples": {
+                    "reviewNum": 201,
+                    "rating": 3.86
+                },
+                "Family": {
+                    "reviewNum": 264,
+                    "rating": 4.1
+                },
+                "Friends": {
+                    "reviewNum": 97,
+                    "rating": 4.25
+                },
+                "Solo": {
+                    "reviewNum": 87,
+                    "rating": 4.0
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 761,
+                    "rating": 4.04
+                },
+                "Other": {
+                    "reviewNum": 90,
+                    "rating": 3.8
+                },
+                "Singapore": {
+                    "reviewNum": 13,
+                    "rating": 3.77
+                }
+            },
+            "rating": {
+                "5": 366,
+                "4": 292,
+                "3": 101,
+                "2": 60,
+                "1": 45
+            },
+            "aspectSentiment": {
+                "Exhibits": 2.41,
+                "Cleanliness": 2.56,
+                "Transportation & Accessibility": 2.23,
+                "History": 2.44,
+                "Tour Experience": 2.24
+            }
+        },
+        "last two years": {
+            "overallSentimentWeek": 3.12,
+            "reviewNum": 24,
+            "visitorType": {
+                "Couples": {
+                    "reviewNum": 8,
+                    "rating": 2.62
+                },
+                "Family": {
+                    "reviewNum": 3,
+                    "rating": 3.33
+                },
+                "Friends": {
+                    "reviewNum": 1,
+                    "rating": 5.0
+                },
+                "Solo": {
+                    "reviewNum": 5,
+                    "rating": 3.0
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 21,
+                    "rating": 3.19
+                },
+                "Other": {
+                    "reviewNum": 3,
+                    "rating": 2.67
+                }
+            },
+            "rating": {
+                "5": 8,
+                "1": 5,
+                "2": 5,
+                "3": 4,
+                "4": 2
+            },
+            "aspectSentiment": {
+                "Exhibits": 2.34,
+                "Cleanliness": 3.0,
+                "Transportation & Accessibility": 1.5,
+                "Tour Experience": 2.0
+            }
+        },
+        "last five years": {
+            "overallSentimentWeek": 3.9,
+            "reviewNum": 240,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 1,
+                    "rating": 5.0
+                },
+                "Couples": {
+                    "reviewNum": 54,
+                    "rating": 3.5
+                },
+                "Family": {
+                    "reviewNum": 78,
+                    "rating": 4.09
+                },
+                "Friends": {
+                    "reviewNum": 26,
+                    "rating": 4.23
+                },
+                "Solo": {
+                    "reviewNum": 16,
+                    "rating": 3.56
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 208,
+                    "rating": 3.98
+                },
+                "Other": {
+                    "reviewNum": 31,
+                    "rating": 3.35
+                },
+                "Singapore": {
+                    "reviewNum": 1,
+                    "rating": 5.0
+                }
+            },
+            "rating": {
+                "5": 100,
+                "4": 74,
+                "3": 27,
+                "2": 21,
+                "1": 18
+            },
+            "aspectSentiment": {
+                "Exhibits": 2.35,
+                "Cleanliness": 2.5,
+                "Transportation & Accessibility": 2.06,
+                "History": 2.38,
+                "Tour Experience": 2.56
+            }
+        }
+    },
+    "Buddha Tooth Relic Temple and Museum": {
+        "all": {
+            "overallSentiment": 4.41,
+            "reviewNum": 2769,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 104,
+                    "rating": 4.45
+                },
+                "Couples": {
+                    "reviewNum": 919,
+                    "rating": 4.45
+                },
+                "Family": {
+                    "reviewNum": 563,
+                    "rating": 4.42
+                },
+                "Friends": {
+                    "reviewNum": 422,
+                    "rating": 4.42
+                },
+                "Solo": {
+                    "reviewNum": 410,
+                    "rating": 4.34
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 2513,
+                    "rating": 4.41
+                },
+                "Other": {
+                    "reviewNum": 233,
+                    "rating": 4.48
+                },
+                "Singapore": {
+                    "reviewNum": 23,
+                    "rating": 4.0
+                }
+            },
+            "rating": {
+                "5": 1450,
+                "4": 1059,
+                "3": 221,
+                "2": 27,
+                "1": 12
+            },
+            "aspectSentiment": {
+                "Temple Etiquette & Structure": 2.31,
+                "Cleanliness": 2.93,
+                "Transportation & Accessibility": 2.31,
+                "Value for Money": 2.83,
+                "Cultural & Religious": 2.39
+            }
+        },
+        "last two years": {
+            "overallSentimentWeek": 4.2,
+            "reviewNum": 20,
+            "visitorType": {
+                "Couples": {
+                    "reviewNum": 3,
+                    "rating": 3.67
+                },
+                "Solo": {
+                    "reviewNum": 2,
+                    "rating": 4.5
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 18,
+                    "rating": 4.11
+                },
+                "Other": {
+                    "reviewNum": 2,
+                    "rating": 5.0
+                }
+            },
+            "rating": {
+                "5": 8,
+                "4": 8,
+                "3": 4
+            },
+            "aspectSentiment": {
+                "Temple Etiquette & Structure": 2.5,
+                "Cleanliness": 3.0,
+                "Transportation & Accessibility": 2.0,
+                "Value for Money": 3.0,
+                "Cultural & Religious": 2.0
+            }
+        },
+        "last five years": {
+            "overallSentimentWeek": 4.46,
+            "reviewNum": 460,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 5,
+                    "rating": 4.8
+                },
+                "Couples": {
+                    "reviewNum": 149,
+                    "rating": 4.41
+                },
+                "Family": {
+                    "reviewNum": 86,
+                    "rating": 4.52
+                },
+                "Friends": {
+                    "reviewNum": 64,
+                    "rating": 4.52
+                },
+                "Solo": {
+                    "reviewNum": 59,
+                    "rating": 4.39
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 414,
+                    "rating": 4.44
+                },
+                "Other": {
+                    "reviewNum": 43,
+                    "rating": 4.63
+                },
+                "Singapore": {
+                    "reviewNum": 3,
+                    "rating": 4.33
+                }
+            },
+            "rating": {
+                "5": 260,
+                "4": 156,
+                "3": 38,
+                "2": 6
+            },
+            "aspectSentiment": {
+                "Temple Etiquette & Structure": 2.41,
+                "Cleanliness": 3.0,
+                "Transportation & Accessibility": 2.42,
+                "Value for Money": 2.79,
+                "Cultural & Religious": 2.37
+            }
+        }
+    },
+    "Clarke Quay": {
+        "all": {
+            "overallSentiment": 4.19,
+            "reviewNum": 1457,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 78,
+                    "rating": 4.09
+                },
+                "Couples": {
+                    "reviewNum": 504,
+                    "rating": 4.09
+                },
+                "Family": {
+                    "reviewNum": 185,
+                    "rating": 4.29
+                },
+                "Friends": {
+                    "reviewNum": 293,
+                    "rating": 4.23
+                },
+                "Solo": {
+                    "reviewNum": 95,
+                    "rating": 4.32
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 1335,
+                    "rating": 4.18
+                },
+                "Other": {
+                    "reviewNum": 114,
+                    "rating": 4.3
+                },
+                "Singapore": {
+                    "reviewNum": 8,
+                    "rating": 4.5
+                }
+            },
+            "rating": {
+                "4": 688,
+                "5": 561,
+                "3": 156,
+                "2": 30,
+                "1": 22
+            },
+            "aspectSentiment": {
+                "Food": 2.47,
+                "View": 2.46,
+                "Nightlife": 2.56,
+                "Transportation & Accessibility": 2.46,
+                "Activities": 2.55
+            }
+        },
+        "last two years": {
+            "overallSentimentWeek": 4.0,
+            "reviewNum": 13,
+            "visitorType": {
+                "Couples": {
+                    "reviewNum": 5,
+                    "rating": 3.4
+                },
+                "Friends": {
+                    "reviewNum": 2,
+                    "rating": 4.0
+                },
+                "Solo": {
+                    "reviewNum": 2,
+                    "rating": 5.0
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 12,
+                    "rating": 4.08
+                },
+                "Other": {
+                    "reviewNum": 1,
+                    "rating": 3.0
+                }
+            },
+            "rating": {
+                "5": 7,
+                "3": 3,
+                "2": 2,
+                "4": 1
+            },
+            "aspectSentiment": {
+                "Food": 2.75,
+                "View": 2.0,
+                "Nightlife": 3.0,
+                "Activities": 2.0
+            }
+        },
+        "last five years": {
+            "overallSentimentWeek": 4.2,
+            "reviewNum": 298,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 9,
+                    "rating": 4.33
+                },
+                "Couples": {
+                    "reviewNum": 108,
+                    "rating": 4.04
+                },
+                "Family": {
+                    "reviewNum": 40,
+                    "rating": 4.28
+                },
+                "Friends": {
+                    "reviewNum": 55,
+                    "rating": 4.2
+                },
+                "Solo": {
+                    "reviewNum": 15,
+                    "rating": 4.33
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 270,
+                    "rating": 4.17
+                },
+                "Other": {
+                    "reviewNum": 28,
+                    "rating": 4.46
+                }
+            },
+            "rating": {
+                "4": 144,
+                "5": 114,
+                "3": 29,
+                "2": 7,
+                "1": 4
+            },
+            "aspectSentiment": {
+                "Food": 2.44,
+                "View": 2.35,
+                "Nightlife": 2.55,
+                "Transportation & Accessibility": 2.39,
+                "Activities": 2.69
+            }
+        }
+    },
+    "Gardens by the Bay": {
+        "all": {
+            "overallSentiment": 4.75,
+            "reviewNum": 7953,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 213,
+                    "rating": 4.7
+                },
+                "Couples": {
+                    "reviewNum": 2682,
+                    "rating": 4.77
+                },
+                "Family": {
+                    "reviewNum": 1949,
+                    "rating": 4.72
+                },
+                "Friends": {
+                    "reviewNum": 1068,
+                    "rating": 4.75
+                },
+                "Solo": {
+                    "reviewNum": 530,
+                    "rating": 4.74
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 6807,
+                    "rating": 4.76
+                },
+                "Other": {
+                    "reviewNum": 1083,
+                    "rating": 4.71
+                },
+                "Singapore": {
+                    "reviewNum": 63,
+                    "rating": 4.59
+                }
+            },
+            "rating": {
+                "5": 6669,
+                "4": 818,
+                "3": 292,
+                "2": 113,
+                "1": 61
+            },
+            "aspectSentiment": {
+                "Infrastructure and Exhibits": 2.48,
+                "Environment": 2.59,
+                "Light and Sound Shows": 2.54,
+                "Botanic Features": 2.67,
+                "General Experience": 2.7
+            }
+        },
+        "last two years": {
+            "overallSentimentWeek": 4.68,
+            "reviewNum": 333,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 2,
+                    "rating": 4.5
+                },
+                "Couples": {
+                    "reviewNum": 56,
+                    "rating": 4.7
+                },
+                "Family": {
+                    "reviewNum": 53,
+                    "rating": 4.64
+                },
+                "Friends": {
+                    "reviewNum": 18,
+                    "rating": 4.72
+                },
+                "Solo": {
+                    "reviewNum": 19,
+                    "rating": 4.42
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 269,
+                    "rating": 4.68
+                },
+                "Other": {
+                    "reviewNum": 61,
+                    "rating": 4.69
+                },
+                "Singapore": {
+                    "reviewNum": 3,
+                    "rating": 4.67
+                }
+            },
+            "rating": {
+                "5": 261,
+                "4": 48,
+                "3": 16,
+                "2": 7,
+                "1": 1
+            },
+            "aspectSentiment": {
+                "Infrastructure and Exhibits": 2.43,
+                "Environment": 2.33,
+                "Light and Sound Shows": 2.61,
+                "Botanic Features": 2.61,
+                "General Experience": 2.68
+            }
+        },
+        "last five years": {
+            "overallSentimentWeek": 4.77,
+            "reviewNum": 4825,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 81,
+                    "rating": 4.59
+                },
+                "Couples": {
+                    "reviewNum": 1495,
+                    "rating": 4.77
+                },
+                "Family": {
+                    "reviewNum": 1099,
+                    "rating": 4.75
+                },
+                "Friends": {
+                    "reviewNum": 601,
+                    "rating": 4.78
+                },
+                "Solo": {
+                    "reviewNum": 310,
+                    "rating": 4.77
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 4008,
+                    "rating": 4.77
+                },
+                "Other": {
+                    "reviewNum": 789,
+                    "rating": 4.72
+                },
+                "Singapore": {
+                    "reviewNum": 28,
+                    "rating": 4.79
+                }
+            },
+            "rating": {
+                "5": 4074,
+                "4": 494,
+                "3": 165,
+                "2": 59,
+                "1": 33
+            },
+            "aspectSentiment": {
+                "Infrastructure and Exhibits": 2.5,
+                "Environment": 2.62,
+                "Light and Sound Shows": 2.56,
+                "Botanic Features": 2.67,
+                "General Experience": 2.7
+            }
+        }
+    },
+    "Jurong Bird Park": {
+        "all": {
+            "overallSentiment": 4.45,
+            "reviewNum": 2965,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 54,
+                    "rating": 4.46
+                },
+                "Couples": {
+                    "reviewNum": 711,
+                    "rating": 4.46
+                },
+                "Family": {
+                    "reviewNum": 1367,
+                    "rating": 4.43
+                },
+                "Friends": {
+                    "reviewNum": 248,
+                    "rating": 4.47
+                },
+                "Solo": {
+                    "reviewNum": 183,
+                    "rating": 4.42
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 2603,
+                    "rating": 4.47
+                },
+                "Other": {
+                    "reviewNum": 315,
+                    "rating": 4.29
+                },
+                "Singapore": {
+                    "reviewNum": 47,
+                    "rating": 4.45
+                }
+            },
+            "rating": {
+                "5": 1821,
+                "4": 781,
+                "3": 258,
+                "2": 77,
+                "1": 28
+            },
+            "aspectSentiment": {
+                "Plant Species": 2.36,
+                "Animal Interaction": 2.4,
+                "Transportation & Accessibility": 2.29,
+                "Bird Shows & Special Events": 2.89,
+                "Bird Species": 2.47
+            }
+        },
+        "last two years": {
+            "overallSentimentWeek": 3.82,
+            "reviewNum": 17,
+            "visitorType": {
+                "Couples": {
+                    "reviewNum": 1,
+                    "rating": 4.0
+                },
+                "Family": {
+                    "reviewNum": 3,
+                    "rating": 2.67
+                },
+                "Friends": {
+                    "reviewNum": 2,
+                    "rating": 4.0
+                },
+                "Solo": {
+                    "reviewNum": 1,
+                    "rating": 5.0
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 15,
+                    "rating": 3.8
+                },
+                "Other": {
+                    "reviewNum": 2,
+                    "rating": 4.0
+                }
+            },
+            "rating": {
+                "5": 7,
+                "4": 4,
+                "3": 3,
+                "2": 2,
+                "1": 1
+            },
+            "aspectSentiment": {
+                "Plant Species": 2,
+                "Animal Interaction": 3,
+                "Bird Species": 3
+            }
+        },
+        "last five years": {
+            "overallSentimentWeek": 4.35,
+            "reviewNum": 612,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 4,
+                    "rating": 4.25
+                },
+                "Couples": {
+                    "reviewNum": 138,
+                    "rating": 4.39
+                },
+                "Family": {
+                    "reviewNum": 278,
+                    "rating": 4.32
+                },
+                "Friends": {
+                    "reviewNum": 47,
+                    "rating": 4.57
+                },
+                "Solo": {
+                    "reviewNum": 46,
+                    "rating": 4.22
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 481,
+                    "rating": 4.4
+                },
+                "Other": {
+                    "reviewNum": 124,
+                    "rating": 4.18
+                },
+                "Singapore": {
+                    "reviewNum": 7,
+                    "rating": 4.14
+                }
+            },
+            "rating": {
+                "5": 362,
+                "4": 155,
+                "3": 55,
+                "2": 29,
+                "1": 11
+            },
+            "aspectSentiment": {
+                "Plant Species": 2.45,
+                "Animal Interaction": 2.39,
+                "Transportation & Accessibility": 2.2,
+                "Bird Shows & Special Events": 3.0,
+                "Bird Species": 2.43
+            }
+        }
+    },
+    "Maxwell Food Centre": {
+        "all": {
+            "overallSentiment": 4.06,
+            "reviewNum": 1484,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 11,
+                    "rating": 4.18
+                },
+                "Couples": {
+                    "reviewNum": 116,
+                    "rating": 4.17
+                },
+                "Family": {
+                    "reviewNum": 42,
+                    "rating": 4.07
+                },
+                "Friends": {
+                    "reviewNum": 37,
+                    "rating": 3.97
+                },
+                "Solo": {
+                    "reviewNum": 34,
+                    "rating": 4.29
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 1308,
+                    "rating": 4.06
+                },
+                "Other": {
+                    "reviewNum": 133,
+                    "rating": 4.17
+                },
+                "Singapore": {
+                    "reviewNum": 43,
+                    "rating": 3.91
+                }
+            },
+            "rating": {
+                "4": 883,
+                "5": 375,
+                "3": 184,
+                "2": 29,
+                "1": 13
+            },
+            "aspectSentiment": {
+                "Cleanliness": 2.63,
+                "Food Variety": 2.56,
+                "Transportation & Accessibility": 2.08,
+                "Value for Money": 2.78,
+                "Traditional Cuisine": 2.44
+            }
+        },
+        "last two years": {
+            "overallSentimentWeek": 4.17,
+            "reviewNum": 18,
+            "visitorType": {
+                "Couples": {
+                    "reviewNum": 4,
+                    "rating": 4.0
+                },
+                "Family": {
+                    "reviewNum": 2,
+                    "rating": 4.5
+                },
+                "Friends": {
+                    "reviewNum": 2,
+                    "rating": 4.5
+                },
+                "Solo": {
+                    "reviewNum": 1,
+                    "rating": 3.0
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 13,
+                    "rating": 4.08
+                },
+                "Other": {
+                    "reviewNum": 5,
+                    "rating": 4.4
+                }
+            },
+            "rating": {
+                "4": 9,
+                "5": 6,
+                "3": 3
+            },
+            "aspectSentiment": {
+                "Cleanliness": 2.6,
+                "Food Variety": 2.17,
+                "Transportation & Accessibility": 1.0,
+                "Value for Money": 2.87
+            }
+        },
+        "last five years": {
+            "overallSentimentWeek": 4.12,
+            "reviewNum": 227,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 4,
+                    "rating": 4.5
+                },
+                "Couples": {
+                    "reviewNum": 86,
+                    "rating": 4.15
+                },
+                "Family": {
+                    "reviewNum": 32,
+                    "rating": 4.12
+                },
+                "Friends": {
+                    "reviewNum": 25,
+                    "rating": 3.96
+                },
+                "Solo": {
+                    "reviewNum": 29,
+                    "rating": 4.31
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 197,
+                    "rating": 4.11
+                },
+                "Other": {
+                    "reviewNum": 29,
+                    "rating": 4.21
+                },
+                "Singapore": {
+                    "reviewNum": 1,
+                    "rating": 4.0
+                }
+            },
+            "rating": {
+                "4": 135,
+                "5": 63,
+                "3": 24,
+                "2": 3,
+                "1": 2
+            },
+            "aspectSentiment": {
+                "Cleanliness": 2.53,
+                "Food Variety": 2.53,
+                "Transportation & Accessibility": 2.0,
+                "Value for Money": 2.8,
+                "Traditional Cuisine": 2.5
+            }
+        }
+    },
+    "Merlion Park": {
+        "all": {
+            "overallSentiment": 4.02,
+            "reviewNum": 3235,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 118,
+                    "rating": 3.91
+                },
+                "Couples": {
+                    "reviewNum": 933,
+                    "rating": 3.99
+                },
+                "Family": {
+                    "reviewNum": 769,
+                    "rating": 4.1
+                },
+                "Friends": {
+                    "reviewNum": 509,
+                    "rating": 3.96
+                },
+                "Solo": {
+                    "reviewNum": 353,
+                    "rating": 3.99
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 2863,
+                    "rating": 4.02
+                },
+                "Other": {
+                    "reviewNum": 349,
+                    "rating": 4.07
+                },
+                "Singapore": {
+                    "reviewNum": 23,
+                    "rating": 4.0
+                }
+            },
+            "rating": {
+                "4": 1457,
+                "5": 975,
+                "3": 722,
+                "2": 56,
+                "1": 25
+            },
+            "aspectSentiment": {
+                "Transportation & Accessibility": 2.27,
+                "Cleanliness": 2.9,
+                "Photography": 2.79,
+                "General Experience": 2.73,
+                "View": 2.62
+            }
+        },
+        "last two years": {
+            "overallSentimentWeek": 4.23,
+            "reviewNum": 39,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 1,
+                    "rating": 5.0
+                },
+                "Couples": {
+                    "reviewNum": 9,
+                    "rating": 4.11
+                },
+                "Family": {
+                    "reviewNum": 3,
+                    "rating": 4.67
+                },
+                "Friends": {
+                    "reviewNum": 4,
+                    "rating": 3.5
+                },
+                "Solo": {
+                    "reviewNum": 4,
+                    "rating": 4.5
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 37,
+                    "rating": 4.19
+                },
+                "Other": {
+                    "reviewNum": 2,
+                    "rating": 5.0
+                }
+            },
+            "rating": {
+                "5": 17,
+                "4": 16,
+                "3": 5,
+                "1": 1
+            },
+            "aspectSentiment": {
+                "Transportation & Accessibility": 3.0,
+                "Cleanliness": 3.0,
+                "Photography": 3.0,
+                "General Experience": 3.0,
+                "View": 2.17
+            }
+        },
+        "last five years": {
+            "overallSentimentWeek": 4.07,
+            "reviewNum": 650,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 16,
+                    "rating": 4.06
+                },
+                "Couples": {
+                    "reviewNum": 185,
+                    "rating": 3.99
+                },
+                "Family": {
+                    "reviewNum": 149,
+                    "rating": 4.11
+                },
+                "Friends": {
+                    "reviewNum": 98,
+                    "rating": 4.07
+                },
+                "Solo": {
+                    "reviewNum": 71,
+                    "rating": 3.93
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 579,
+                    "rating": 4.05
+                },
+                "Other": {
+                    "reviewNum": 68,
+                    "rating": 4.18
+                },
+                "Singapore": {
+                    "reviewNum": 3,
+                    "rating": 4.33
+                }
+            },
+            "rating": {
+                "4": 264,
+                "5": 227,
+                "3": 142,
+                "2": 10,
+                "1": 7
+            },
+            "aspectSentiment": {
+                "Transportation & Accessibility": 2.34,
+                "Cleanliness": 3.0,
+                "Photography": 2.89,
+                "General Experience": 2.73,
+                "View": 2.57
+            }
+        }
+    },
+    "Mustafa Centre": {
+        "all": {
+            "overallSentiment": 3.5,
+            "reviewNum": 1327,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 57,
+                    "rating": 3.32
+                },
+                "Couples": {
+                    "reviewNum": 311,
+                    "rating": 3.49
+                },
+                "Family": {
+                    "reviewNum": 303,
+                    "rating": 3.59
+                },
+                "Friends": {
+                    "reviewNum": 232,
+                    "rating": 3.44
+                },
+                "Solo": {
+                    "reviewNum": 160,
+                    "rating": 3.35
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 1149,
+                    "rating": 3.5
+                },
+                "Other": {
+                    "reviewNum": 167,
+                    "rating": 3.54
+                },
+                "Singapore": {
+                    "reviewNum": 11,
+                    "rating": 3.0
+                }
+            },
+            "rating": {
+                "4": 611,
+                "3": 389,
+                "5": 147,
+                "2": 117,
+                "1": 63
+            },
+            "aspectSentiment": {
+                "Shopping": 2.38,
+                "Pharmacy": 2.26,
+                "Transportation & Accessibility": 2.05,
+                "Money Exchange": 2.63,
+                "Supermarket": 2.19
+            }
+        },
+        "last two years": {
+            "overallSentimentWeek": 3.4,
+            "reviewNum": 15,
+            "visitorType": {
+                "Couples": {
+                    "reviewNum": 5,
+                    "rating": 3.2
+                },
+                "Family": {
+                    "reviewNum": 2,
+                    "rating": 3.5
+                },
+                "Friends": {
+                    "reviewNum": 3,
+                    "rating": 4.33
+                },
+                "Solo": {
+                    "reviewNum": 2,
+                    "rating": 2.0
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 9,
+                    "rating": 3.33
+                },
+                "Other": {
+                    "reviewNum": 6,
+                    "rating": 3.5
+                }
+            },
+            "rating": {
+                "4": 8,
+                "2": 4,
+                "3": 2,
+                "5": 1
+            },
+            "aspectSentiment": {
+                "Shopping": 2.0,
+                "Transportation & Accessibility": 2.5
+            }
+        },
+        "last five years": {
+            "overallSentimentWeek": 3.33,
+            "reviewNum": 302,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 9,
+                    "rating": 3.33
+                },
+                "Couples": {
+                    "reviewNum": 65,
+                    "rating": 2.98
+                },
+                "Family": {
+                    "reviewNum": 60,
+                    "rating": 3.57
+                },
+                "Friends": {
+                    "reviewNum": 53,
+                    "rating": 3.42
+                },
+                "Solo": {
+                    "reviewNum": 36,
+                    "rating": 3.03
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 252,
+                    "rating": 3.33
+                },
+                "Other": {
+                    "reviewNum": 48,
+                    "rating": 3.33
+                },
+                "Singapore": {
+                    "reviewNum": 2,
+                    "rating": 4.0
+                }
+            },
+            "rating": {
+                "4": 137,
+                "3": 76,
+                "2": 34,
+                "1": 28,
+                "5": 27
+            },
+            "aspectSentiment": {
+                "Shopping": 2.51,
+                "Pharmacy": 2.0,
+                "Transportation & Accessibility": 1.98,
+                "Money Exchange": 2.75,
+                "Supermarket": 2.0
+            }
+        }
+    },
+    "National Museum of Singapore": {
+        "all": {
+            "overallSentiment": 4.42,
+            "reviewNum": 1441,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 41,
+                    "rating": 4.29
+                },
+                "Couples": {
+                    "reviewNum": 462,
+                    "rating": 4.47
+                },
+                "Family": {
+                    "reviewNum": 214,
+                    "rating": 4.45
+                },
+                "Friends": {
+                    "reviewNum": 189,
+                    "rating": 4.4
+                },
+                "Solo": {
+                    "reviewNum": 247,
+                    "rating": 4.45
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 1308,
+                    "rating": 4.44
+                },
+                "Other": {
+                    "reviewNum": 117,
+                    "rating": 4.35
+                },
+                "Singapore": {
+                    "reviewNum": 16,
+                    "rating": 3.56
+                }
+            },
+            "rating": {
+                "5": 842,
+                "4": 435,
+                "3": 110,
+                "2": 37,
+                "1": 17
+            },
+            "aspectSentiment": {
+                "Exhibits": 2.0,
+                "Cleanliness": 2.76,
+                "Transportation & Accessibility": 2.22,
+                "Value for Money": 2.62,
+                "History": 2.61
+            }
+        },
+        "last two years": {
+            "overallSentimentWeek": 4.27,
+            "reviewNum": 30,
+            "visitorType": {
+                "Couples": {
+                    "reviewNum": 1,
+                    "rating": 5.0
+                },
+                "Family": {
+                    "reviewNum": 2,
+                    "rating": 5.0
+                },
+                "Friends": {
+                    "reviewNum": 2,
+                    "rating": 4.0
+                },
+                "Solo": {
+                    "reviewNum": 4,
+                    "rating": 4.0
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 22,
+                    "rating": 4.5
+                },
+                "Other": {
+                    "reviewNum": 8,
+                    "rating": 3.62
+                }
+            },
+            "rating": {
+                "5": 18,
+                "3": 5,
+                "4": 5,
+                "1": 1,
+                "2": 1
+            },
+            "aspectSentiment": {
+                "Transportation & Accessibility": 2.0,
+                "Value for Money": 2.27,
+                "History": 2.69
+            }
+        },
+        "last five years": {
+            "overallSentimentWeek": 4.54,
+            "reviewNum": 366,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 4,
+                    "rating": 4.75
+                },
+                "Couples": {
+                    "reviewNum": 114,
+                    "rating": 4.57
+                },
+                "Family": {
+                    "reviewNum": 49,
+                    "rating": 4.65
+                },
+                "Friends": {
+                    "reviewNum": 44,
+                    "rating": 4.75
+                },
+                "Solo": {
+                    "reviewNum": 54,
+                    "rating": 4.37
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 317,
+                    "rating": 4.56
+                },
+                "Other": {
+                    "reviewNum": 46,
+                    "rating": 4.33
+                },
+                "Singapore": {
+                    "reviewNum": 3,
+                    "rating": 5.0
+                }
+            },
+            "rating": {
+                "5": 241,
+                "4": 96,
+                "3": 19,
+                "1": 5,
+                "2": 5
+            },
+            "aspectSentiment": {
+                "Exhibits": 2.0,
+                "Cleanliness": 2.73,
+                "Transportation & Accessibility": 2.33,
+                "Value for Money": 2.69,
+                "History": 2.67
+            }
+        }
+    },
+    "National Orchid Garden": {
+        "all": {
+            "overallSentiment": 4.85,
+            "reviewNum": 5677,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 223,
+                    "rating": 4.9
+                },
+                "Couples": {
+                    "reviewNum": 2392,
+                    "rating": 4.86
+                },
+                "Family": {
+                    "reviewNum": 994,
+                    "rating": 4.83
+                },
+                "Friends": {
+                    "reviewNum": 779,
+                    "rating": 4.84
+                },
+                "Solo": {
+                    "reviewNum": 580,
+                    "rating": 4.84
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 5045,
+                    "rating": 4.86
+                },
+                "Other": {
+                    "reviewNum": 597,
+                    "rating": 4.83
+                },
+                "Singapore": {
+                    "reviewNum": 35,
+                    "rating": 4.74
+                }
+            },
+            "rating": {
+                "5": 5049,
+                "4": 458,
+                "3": 137,
+                "2": 27,
+                "1": 6
+            },
+            "aspectSentiment": {
+                "Garden": 2.73,
+                "Historical & Heritage Elements": 2.45,
+                "Transportation & Accessibility": 2.07,
+                "Orchid Variety": 2.7,
+                "Environment": 1.5
+            }
+        },
+        "last two years": {
+            "overallSentimentWeek": 4.8,
+            "reviewNum": 70,
+            "visitorType": {
+                "Couples": {
+                    "reviewNum": 7,
+                    "rating": 4.86
+                },
+                "Family": {
+                    "reviewNum": 1,
+                    "rating": 5.0
+                },
+                "Friends": {
+                    "reviewNum": 5,
+                    "rating": 5.0
+                },
+                "Solo": {
+                    "reviewNum": 4,
+                    "rating": 5.0
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 62,
+                    "rating": 4.79
+                },
+                "Other": {
+                    "reviewNum": 7,
+                    "rating": 4.86
+                },
+                "Singapore": {
+                    "reviewNum": 1,
+                    "rating": 5.0
+                }
+            },
+            "rating": {
+                "5": 60,
+                "4": 7,
+                "3": 2,
+                "2": 1
+            },
+            "aspectSentiment": {
+                "Garden": 3.0,
+                "Historical & Heritage Elements": 2.17,
+                "Orchid Variety": 2.0
+            }
+        },
+        "last five years": {
+            "overallSentimentWeek": 4.85,
+            "reviewNum": 1688,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 54,
+                    "rating": 4.81
+                },
+                "Couples": {
+                    "reviewNum": 586,
+                    "rating": 4.87
+                },
+                "Family": {
+                    "reviewNum": 281,
+                    "rating": 4.84
+                },
+                "Friends": {
+                    "reviewNum": 196,
+                    "rating": 4.83
+                },
+                "Solo": {
+                    "reviewNum": 188,
+                    "rating": 4.82
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 1426,
+                    "rating": 4.85
+                },
+                "Other": {
+                    "reviewNum": 251,
+                    "rating": 4.83
+                },
+                "Singapore": {
+                    "reviewNum": 11,
+                    "rating": 4.82
+                }
+            },
+            "rating": {
+                "5": 1491,
+                "4": 148,
+                "3": 36,
+                "2": 12,
+                "1": 1
+            },
+            "aspectSentiment": {
+                "Garden": 2.71,
+                "Historical & Heritage Elements": 2.4,
+                "Transportation & Accessibility": 2.0,
+                "Orchid Variety": 2.66
+            }
+        }
+    },
+    "Night Safari": {
+        "all": {
+            "overallSentiment": 3.53,
+            "reviewNum": 2261,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 18,
+                    "rating": 4.06
+                },
+                "Couples": {
+                    "reviewNum": 627,
+                    "rating": 3.54
+                },
+                "Family": {
+                    "reviewNum": 983,
+                    "rating": 3.45
+                },
+                "Friends": {
+                    "reviewNum": 302,
+                    "rating": 3.6
+                },
+                "Solo": {
+                    "reviewNum": 85,
+                    "rating": 3.67
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 1822,
+                    "rating": 3.56
+                },
+                "Other": {
+                    "reviewNum": 416,
+                    "rating": 3.4
+                },
+                "Singapore": {
+                    "reviewNum": 23,
+                    "rating": 3.48
+                }
+            },
+            "rating": {
+                "5": 762,
+                "4": 515,
+                "3": 411,
+                "2": 298,
+                "1": 275
+            },
+            "aspectSentiment": {
+                "Cleanliness": 2.62,
+                "Transportation & Accessibility": 2.06,
+                "Value for Money": 2.19
+            }
+        },
+        "last two years": {
+            "overallSentimentWeek": 3.2,
+            "reviewNum": 56,
+            "visitorType": {
+                "Couples": {
+                    "reviewNum": 12,
+                    "rating": 3.25
+                },
+                "Family": {
+                    "reviewNum": 14,
+                    "rating": 2.79
+                },
+                "Friends": {
+                    "reviewNum": 3,
+                    "rating": 4.0
+                },
+                "Solo": {
+                    "reviewNum": 1,
+                    "rating": 3.0
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 43,
+                    "rating": 3.21
+                },
+                "Other": {
+                    "reviewNum": 10,
+                    "rating": 2.8
+                },
+                "Singapore": {
+                    "reviewNum": 3,
+                    "rating": 4.33
+                }
+            },
+            "rating": {
+                "5": 15,
+                "4": 13,
+                "1": 12,
+                "2": 8,
+                "3": 8
+            },
+            "aspectSentiment": {
+                "Cleanliness": 2.0,
+                "Transportation & Accessibility": 2.04,
+                "Value for Money": 1.97
+            }
+        },
+        "last five years": {
+            "overallSentimentWeek": 3.46,
+            "reviewNum": 1373,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 7,
+                    "rating": 3.57
+                },
+                "Couples": {
+                    "reviewNum": 365,
+                    "rating": 3.52
+                },
+                "Family": {
+                    "reviewNum": 616,
+                    "rating": 3.39
+                },
+                "Friends": {
+                    "reviewNum": 176,
+                    "rating": 3.52
+                },
+                "Solo": {
+                    "reviewNum": 51,
+                    "rating": 3.49
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 1065,
+                    "rating": 3.48
+                },
+                "Other": {
+                    "reviewNum": 294,
+                    "rating": 3.41
+                },
+                "Singapore": {
+                    "reviewNum": 14,
+                    "rating": 3.21
+                }
+            },
+            "rating": {
+                "5": 447,
+                "4": 298,
+                "3": 257,
+                "1": 186,
+                "2": 185
+            },
+            "aspectSentiment": {
+                "Cleanliness": 2.61,
+                "Transportation & Accessibility": 2.06,
+                "Value for Money": 2.15
+            }
+        }
+    },
+    "Orchard Road": {
+        "all": {
+            "overallSentiment": 4.03,
+            "reviewNum": 6066,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 315,
+                    "rating": 4.04
+                },
+                "Couples": {
+                    "reviewNum": 1922,
+                    "rating": 3.95
+                },
+                "Family": {
+                    "reviewNum": 1249,
+                    "rating": 4.09
+                },
+                "Friends": {
+                    "reviewNum": 740,
+                    "rating": 4.09
+                },
+                "Solo": {
+                    "reviewNum": 571,
+                    "rating": 3.98
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 5440,
+                    "rating": 4.02
+                },
+                "Other": {
+                    "reviewNum": 573,
+                    "rating": 4.03
+                },
+                "Singapore": {
+                    "reviewNum": 53,
+                    "rating": 4.04
+                }
+            },
+            "rating": {
+                "4": 2832,
+                "5": 1810,
+                "3": 1237,
+                "2": 142,
+                "1": 45
+            },
+            "aspectSentiment": {
+                "High-end Shopping & Designer Brands": 2.55,
+                "Budget Shopping & Market": 2.5,
+                "Transportation & Accessibility": 2.36,
+                "Shopping Malls & Department Stores": 2.46
+            }
+        },
+        "last two years": {
+            "overallSentimentWeek": 3.94,
+            "reviewNum": 47,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 2,
+                    "rating": 4.5
+                },
+                "Couples": {
+                    "reviewNum": 4,
+                    "rating": 3.0
+                },
+                "Family": {
+                    "reviewNum": 1,
+                    "rating": 4.0
+                },
+                "Friends": {
+                    "reviewNum": 2,
+                    "rating": 3.0
+                },
+                "Solo": {
+                    "reviewNum": 1,
+                    "rating": 4.0
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 37,
+                    "rating": 3.84
+                },
+                "Other": {
+                    "reviewNum": 9,
+                    "rating": 4.22
+                },
+                "Singapore": {
+                    "reviewNum": 1,
+                    "rating": 5.0
+                }
+            },
+            "rating": {
+                "5": 18,
+                "4": 16,
+                "3": 7,
+                "2": 4,
+                "1": 2
+            },
+            "aspectSentiment": {
+                "Budget Shopping & Market": 2.64,
+                "Transportation & Accessibility": 1.67,
+                "Shopping Malls & Department Stores": 1.5
+            }
+        },
+        "last five years": {
+            "overallSentimentWeek": 4.04,
+            "reviewNum": 1432,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 57,
+                    "rating": 3.96
+                },
+                "Couples": {
+                    "reviewNum": 461,
+                    "rating": 4.02
+                },
+                "Family": {
+                    "reviewNum": 307,
+                    "rating": 4.12
+                },
+                "Friends": {
+                    "reviewNum": 158,
+                    "rating": 4.1
+                },
+                "Solo": {
+                    "reviewNum": 128,
+                    "rating": 3.94
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 1254,
+                    "rating": 4.05
+                },
+                "Other": {
+                    "reviewNum": 172,
+                    "rating": 3.97
+                },
+                "Singapore": {
+                    "reviewNum": 6,
+                    "rating": 4.5
+                }
+            },
+            "rating": {
+                "4": 687,
+                "5": 436,
+                "3": 258,
+                "2": 36,
+                "1": 15
+            },
+            "aspectSentiment": {
+                "High-end Shopping & Designer Brands": 2.83,
+                "Budget Shopping & Market": 2.5,
+                "Transportation & Accessibility": 2.39,
+                "Shopping Malls & Department Stores": 2.44
+            }
+        }
+    },
+    "River Wonders": {
+        "all": {
+            "overallSentiment": 3.73,
+            "reviewNum": 1656,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 7,
+                    "rating": 3.43
+                },
+                "Couples": {
+                    "reviewNum": 329,
+                    "rating": 3.71
+                },
+                "Family": {
+                    "reviewNum": 813,
+                    "rating": 3.77
+                },
+                "Friends": {
+                    "reviewNum": 165,
+                    "rating": 3.78
+                },
+                "Solo": {
+                    "reviewNum": 66,
+                    "rating": 3.86
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 1352,
+                    "rating": 3.75
+                },
+                "Other": {
+                    "reviewNum": 250,
+                    "rating": 3.69
+                },
+                "Singapore": {
+                    "reviewNum": 54,
+                    "rating": 3.37
+                }
+            },
+            "rating": {
+                "4": 616,
+                "5": 444,
+                "3": 387,
+                "2": 125,
+                "1": 84
+            },
+            "aspectSentiment": {
+                "Nightlife & River Ride": 2.5,
+                "Cleanliness": 2.75,
+                "Animal Interaction & Facilities": 2.57,
+                "Transportation & Accessibility": 2.15,
+                "Exhibit & Diversity": 2.67
+            }
+        },
+        "last two years": {
+            "overallSentimentWeek": 4.08,
+            "reviewNum": 26,
+            "visitorType": {
+                "Couples": {
+                    "reviewNum": 2,
+                    "rating": 5.0
+                },
+                "Family": {
+                    "reviewNum": 5,
+                    "rating": 3.6
+                },
+                "Friends": {
+                    "reviewNum": 3,
+                    "rating": 4.33
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 18,
+                    "rating": 4.11
+                },
+                "Other": {
+                    "reviewNum": 8,
+                    "rating": 4.0
+                }
+            },
+            "rating": {
+                "5": 12,
+                "4": 8,
+                "3": 3,
+                "2": 2,
+                "1": 1
+            },
+            "aspectSentiment": {
+                "Nightlife & River Ride": 2.67,
+                "Cleanliness": 2.5,
+                "Animal Interaction & Facilities": 2.33,
+                "Transportation & Accessibility": 2.42
+            }
+        },
+        "last five years": {
+            "overallSentimentWeek": 3.93,
+            "reviewNum": 485,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 1,
+                    "rating": 4.0
+                },
+                "Couples": {
+                    "reviewNum": 78,
+                    "rating": 3.81
+                },
+                "Family": {
+                    "reviewNum": 273,
+                    "rating": 3.97
+                },
+                "Friends": {
+                    "reviewNum": 45,
+                    "rating": 4.0
+                },
+                "Solo": {
+                    "reviewNum": 20,
+                    "rating": 4.05
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 342,
+                    "rating": 3.99
+                },
+                "Other": {
+                    "reviewNum": 127,
+                    "rating": 3.76
+                },
+                "Singapore": {
+                    "reviewNum": 16,
+                    "rating": 4.0
+                }
+            },
+            "rating": {
+                "4": 179,
+                "5": 171,
+                "3": 85,
+                "2": 29,
+                "1": 21
+            },
+            "aspectSentiment": {
+                "Nightlife & River Ride": 2.49,
+                "Cleanliness": 2.67,
+                "Animal Interaction & Facilities": 2.71,
+                "Transportation & Accessibility": 2.23,
+                "Exhibit & Diversity": 2.67
+            }
+        }
+    },
+    "Sands Skypark Observation Deck": {
+        "all": {
+            "overallSentiment": 4.21,
+            "reviewNum": 7586,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 477,
+                    "rating": 4.33
+                },
+                "Couples": {
+                    "reviewNum": 2906,
+                    "rating": 4.18
+                },
+                "Family": {
+                    "reviewNum": 1496,
+                    "rating": 4.24
+                },
+                "Friends": {
+                    "reviewNum": 1090,
+                    "rating": 4.24
+                },
+                "Solo": {
+                    "reviewNum": 544,
+                    "rating": 4.12
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 6757,
+                    "rating": 4.21
+                },
+                "Other": {
+                    "reviewNum": 789,
+                    "rating": 4.21
+                },
+                "Singapore": {
+                    "reviewNum": 40,
+                    "rating": 4.2
+                }
+            },
+            "rating": {
+                "5": 3955,
+                "4": 1928,
+                "3": 1224,
+                "2": 318,
+                "1": 161
+            },
+            "aspectSentiment": {
+                "Service": 3.0,
+                "Cleanliness": 2.67,
+                "Transportation & Accessibility": 2.29,
+                "View": 2.64,
+                "Facilities": 2.37
+            }
+        },
+        "last two years": {
+            "overallSentimentWeek": 3.82,
+            "reviewNum": 61,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 2,
+                    "rating": 5.0
+                },
+                "Couples": {
+                    "reviewNum": 10,
+                    "rating": 3.4
+                },
+                "Family": {
+                    "reviewNum": 3,
+                    "rating": 3.67
+                },
+                "Friends": {
+                    "reviewNum": 1,
+                    "rating": 1.0
+                },
+                "Solo": {
+                    "reviewNum": 6,
+                    "rating": 3.33
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 53,
+                    "rating": 3.94
+                },
+                "Other": {
+                    "reviewNum": 8,
+                    "rating": 3.0
+                }
+            },
+            "rating": {
+                "5": 25,
+                "3": 17,
+                "4": 11,
+                "2": 5,
+                "1": 3
+            },
+            "aspectSentiment": {
+                "View": 2.5,
+                "Transportation & Accessibility": 1.8,
+                "Facilities": 2.38
+            }
+        },
+        "last five years": {
+            "overallSentimentWeek": 4.15,
+            "reviewNum": 2308,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 100,
+                    "rating": 4.43
+                },
+                "Couples": {
+                    "reviewNum": 932,
+                    "rating": 4.09
+                },
+                "Family": {
+                    "reviewNum": 393,
+                    "rating": 4.27
+                },
+                "Friends": {
+                    "reviewNum": 302,
+                    "rating": 4.09
+                },
+                "Solo": {
+                    "reviewNum": 181,
+                    "rating": 4.09
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 2046,
+                    "rating": 4.14
+                },
+                "Other": {
+                    "reviewNum": 260,
+                    "rating": 4.24
+                },
+                "Singapore": {
+                    "reviewNum": 2,
+                    "rating": 3.0
+                }
+            },
+            "rating": {
+                "5": 1150,
+                "4": 621,
+                "3": 354,
+                "2": 110,
+                "1": 73
+            },
+            "aspectSentiment": {
+                "Service": 3.0,
+                "Cleanliness": 2.65,
+                "Transportation & Accessibility": 2.17,
+                "View": 2.51,
+                "Facilities": 2.34
+            }
+        }
+    },
+    "Singapore Flyer": {
+        "all": {
+            "overallSentiment": 4.34,
+            "reviewNum": 8266,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 295,
+                    "rating": 4.27
+                },
+                "Couples": {
+                    "reviewNum": 2705,
+                    "rating": 4.39
+                },
+                "Family": {
+                    "reviewNum": 2472,
+                    "rating": 4.34
+                },
+                "Friends": {
+                    "reviewNum": 1082,
+                    "rating": 4.34
+                },
+                "Solo": {
+                    "reviewNum": 522,
+                    "rating": 4.37
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 7311,
+                    "rating": 4.35
+                },
+                "Other": {
+                    "reviewNum": 872,
+                    "rating": 4.35
+                },
+                "Singapore": {
+                    "reviewNum": 83,
+                    "rating": 3.77
+                }
+            },
+            "rating": {
+                "5": 4484,
+                "4": 2436,
+                "3": 1116,
+                "2": 161,
+                "1": 69
+            },
+            "aspectSentiment": {
+                "Ride Experience": 2.28,
+                "View": 2.67,
+                "Transportation & Accessibility": 2.16,
+                "Cleanliness": 2.83,
+                "Value for Money": 2.46
+            }
+        },
+        "last two years": {
+            "overallSentimentWeek": 3.97,
+            "reviewNum": 34,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 1,
+                    "rating": 5.0
+                },
+                "Couples": {
+                    "reviewNum": 5,
+                    "rating": 3.8
+                },
+                "Family": {
+                    "reviewNum": 6,
+                    "rating": 3.83
+                },
+                "Friends": {
+                    "reviewNum": 2,
+                    "rating": 4.5
+                },
+                "Solo": {
+                    "reviewNum": 1,
+                    "rating": 3.0
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 25,
+                    "rating": 4.04
+                },
+                "Other": {
+                    "reviewNum": 8,
+                    "rating": 4.12
+                },
+                "Singapore": {
+                    "reviewNum": 1,
+                    "rating": 1.0
+                }
+            },
+            "rating": {
+                "5": 17,
+                "4": 7,
+                "3": 5,
+                "1": 3,
+                "2": 2
+            },
+            "aspectSentiment": {
+                "Cleanliness": 1.0,
+                "Transportation & Accessibility": 1.62,
+                "Value for Money": 2.2
+            }
+        },
+        "last five years": {
+            "overallSentimentWeek": 4.37,
+            "reviewNum": 1159,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 23,
+                    "rating": 4.17
+                },
+                "Couples": {
+                    "reviewNum": 355,
+                    "rating": 4.43
+                },
+                "Family": {
+                    "reviewNum": 358,
+                    "rating": 4.41
+                },
+                "Friends": {
+                    "reviewNum": 138,
+                    "rating": 4.31
+                },
+                "Solo": {
+                    "reviewNum": 80,
+                    "rating": 4.38
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 965,
+                    "rating": 4.38
+                },
+                "Other": {
+                    "reviewNum": 187,
+                    "rating": 4.41
+                },
+                "Singapore": {
+                    "reviewNum": 7,
+                    "rating": 3.14
+                }
+            },
+            "rating": {
+                "5": 688,
+                "4": 288,
+                "3": 133,
+                "2": 29,
+                "1": 21
+            },
+            "aspectSentiment": {
+                "Ride Experience": 2.37,
+                "View": 2.5,
+                "Transportation & Accessibility": 2.07,
+                "Cleanliness": 2.77,
+                "Value for Money": 2.5
+            }
+        }
+    },
+    "Singapore River": {
+        "all": {
+            "overallSentiment": 4.27,
+            "reviewNum": 928,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 52,
+                    "rating": 4.35
+                },
+                "Couples": {
+                    "reviewNum": 322,
+                    "rating": 4.28
+                },
+                "Family": {
+                    "reviewNum": 172,
+                    "rating": 4.25
+                },
+                "Friends": {
+                    "reviewNum": 100,
+                    "rating": 4.27
+                },
+                "Solo": {
+                    "reviewNum": 76,
+                    "rating": 4.22
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 846,
+                    "rating": 4.26
+                },
+                "Other": {
+                    "reviewNum": 74,
+                    "rating": 4.36
+                },
+                "Singapore": {
+                    "reviewNum": 8,
+                    "rating": 4.5
+                }
+            },
+            "rating": {
+                "4": 465,
+                "5": 369,
+                "3": 77,
+                "2": 11,
+                "1": 6
+            },
+            "aspectSentiment": {
+                "Cleanliness": 2.79,
+                "Transportation & Accessibility": 2.42,
+                "Value for Money": 2.46
+            }
+        },
+        "last two years": {
+            "overallSentimentWeek": 4.2,
+            "reviewNum": 10,
+            "visitorType": {
+                "Couples": {
+                    "reviewNum": 1,
+                    "rating": 4.0
+                },
+                "Family": {
+                    "reviewNum": 1,
+                    "rating": 5.0
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 10,
+                    "rating": 4.2
+                }
+            },
+            "rating": {
+                "4": 5,
+                "5": 4,
+                "2": 1
+            },
+            "aspectSentiment": {
+                "Cleanliness": 3,
+                "Transportation & Accessibility": 2,
+                "Value for Money": 1
+            }
+        },
+        "last five years": {
+            "overallSentimentWeek": 4.37,
+            "reviewNum": 289,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 11,
+                    "rating": 4.64
+                },
+                "Couples": {
+                    "reviewNum": 93,
+                    "rating": 4.34
+                },
+                "Family": {
+                    "reviewNum": 42,
+                    "rating": 4.4
+                },
+                "Friends": {
+                    "reviewNum": 16,
+                    "rating": 4.31
+                },
+                "Solo": {
+                    "reviewNum": 14,
+                    "rating": 4.57
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 253,
+                    "rating": 4.37
+                },
+                "Other": {
+                    "reviewNum": 35,
+                    "rating": 4.4
+                },
+                "Singapore": {
+                    "reviewNum": 1,
+                    "rating": 4.0
+                }
+            },
+            "rating": {
+                "5": 140,
+                "4": 123,
+                "3": 22,
+                "2": 2,
+                "1": 2
+            },
+            "aspectSentiment": {
+                "Cleanliness": 2.91,
+                "Transportation & Accessibility": 2.52,
+                "Value for Money": 2.55
+            }
+        }
+    },
+    "Singapore Zoo": {
+        "all": {
+            "overallSentiment": 4.53,
+            "reviewNum": 11565,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 229,
+                    "rating": 4.59
+                },
+                "Couples": {
+                    "reviewNum": 2862,
+                    "rating": 4.55
+                },
+                "Family": {
+                    "reviewNum": 4872,
+                    "rating": 4.52
+                },
+                "Friends": {
+                    "reviewNum": 1219,
+                    "rating": 4.54
+                },
+                "Solo": {
+                    "reviewNum": 591,
+                    "rating": 4.57
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 9877,
+                    "rating": 4.55
+                },
+                "Other": {
+                    "reviewNum": 1518,
+                    "rating": 4.44
+                },
+                "Singapore": {
+                    "reviewNum": 170,
+                    "rating": 4.59
+                }
+            },
+            "rating": {
+                "5": 7927,
+                "4": 2364,
+                "3": 920,
+                "2": 237,
+                "1": 117
+            },
+            "aspectSentiment": {
+                "Exhibits": 3.0,
+                "General Experience": 2.4,
+                "Transportation & Accessibility": 2.69,
+                "Flora and Nature": 2.68,
+                "Animal Interactions": 2.35
+            }
+        },
+        "last two years": {
+            "overallSentimentWeek": 4.28,
+            "reviewNum": 108,
+            "visitorType": {
+                "Couples": {
+                    "reviewNum": 17,
+                    "rating": 4.24
+                },
+                "Family": {
+                    "reviewNum": 28,
+                    "rating": 4.36
+                },
+                "Friends": {
+                    "reviewNum": 5,
+                    "rating": 4.0
+                },
+                "Solo": {
+                    "reviewNum": 1,
+                    "rating": 1.0
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 81,
+                    "rating": 4.35
+                },
+                "Other": {
+                    "reviewNum": 23,
+                    "rating": 3.96
+                },
+                "Singapore": {
+                    "reviewNum": 4,
+                    "rating": 4.75
+                }
+            },
+            "rating": {
+                "5": 69,
+                "4": 16,
+                "3": 12,
+                "2": 6,
+                "1": 5
+            },
+            "aspectSentiment": {
+                "General Experience": 2.54,
+                "Flora and Nature": 2.43,
+                "Animal Interactions": 2.53
+            }
+        },
+        "last five years": {
+            "overallSentimentWeek": 4.46,
+            "reviewNum": 3452,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 25,
+                    "rating": 4.0
+                },
+                "Couples": {
+                    "reviewNum": 801,
+                    "rating": 4.45
+                },
+                "Family": {
+                    "reviewNum": 1701,
+                    "rating": 4.43
+                },
+                "Friends": {
+                    "reviewNum": 324,
+                    "rating": 4.53
+                },
+                "Solo": {
+                    "reviewNum": 179,
+                    "rating": 4.55
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 2661,
+                    "rating": 4.5
+                },
+                "Other": {
+                    "reviewNum": 757,
+                    "rating": 4.33
+                },
+                "Singapore": {
+                    "reviewNum": 34,
+                    "rating": 4.62
+                }
+            },
+            "rating": {
+                "5": 2303,
+                "4": 665,
+                "3": 322,
+                "2": 98,
+                "1": 64
+            },
+            "aspectSentiment": {
+                "General Experience": 2.4,
+                "Transportation & Accessibility": 2.95,
+                "Flora and Nature": 2.68,
+                "Animal Interactions": 2.33
+            }
+        }
+    },
+    "Singapore Botanic Gardens": {
+        "all": {
+            "overallSentiment": 4.81,
+            "reviewNum": 10052,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 426,
+                    "rating": 4.8
+                },
+                "Couples": {
+                    "reviewNum": 3643,
+                    "rating": 4.83
+                },
+                "Family": {
+                    "reviewNum": 1814,
+                    "rating": 4.76
+                },
+                "Friends": {
+                    "reviewNum": 1397,
+                    "rating": 4.8
+                },
+                "Solo": {
+                    "reviewNum": 1153,
+                    "rating": 4.81
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 8915,
+                    "rating": 4.82
+                },
+                "Other": {
+                    "reviewNum": 995,
+                    "rating": 4.76
+                },
+                "Singapore": {
+                    "reviewNum": 142,
+                    "rating": 4.71
+                }
+            },
+            "rating": {
+                "5": 8537,
+                "4": 1177,
+                "3": 290,
+                "2": 31,
+                "1": 17
+            },
+            "aspectSentiment": {
+                "Horticulture": 2.63,
+                "Biodiversity": 2.68,
+                "Transportation & Accessibility": 2.39,
+                "Activities": 2.33,
+                "Events": 2.58
+            }
+        },
+        "last two years": {
+            "overallSentimentWeek": 4.82,
+            "reviewNum": 142,
+            "visitorType": {
+                "Couples": {
+                    "reviewNum": 23,
+                    "rating": 5.0
+                },
+                "Family": {
+                    "reviewNum": 11,
+                    "rating": 4.18
+                },
+                "Friends": {
+                    "reviewNum": 8,
+                    "rating": 4.75
+                },
+                "Solo": {
+                    "reviewNum": 7,
+                    "rating": 4.71
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 118,
+                    "rating": 4.87
+                },
+                "Other": {
+                    "reviewNum": 21,
+                    "rating": 4.52
+                },
+                "Singapore": {
+                    "reviewNum": 3,
+                    "rating": 5.0
+                }
+            },
+            "rating": {
+                "5": 124,
+                "4": 15,
+                "1": 2,
+                "3": 1
+            },
+            "aspectSentiment": {
+                "Biodiversity": 2.8
+            }
+        },
+        "last five years": {
+            "overallSentimentWeek": 4.84,
+            "reviewNum": 2930,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 71,
+                    "rating": 4.8
+                },
+                "Couples": {
+                    "reviewNum": 1044,
+                    "rating": 4.86
+                },
+                "Family": {
+                    "reviewNum": 519,
+                    "rating": 4.77
+                },
+                "Friends": {
+                    "reviewNum": 408,
+                    "rating": 4.84
+                },
+                "Solo": {
+                    "reviewNum": 331,
+                    "rating": 4.85
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 2453,
+                    "rating": 4.86
+                },
+                "Other": {
+                    "reviewNum": 456,
+                    "rating": 4.77
+                },
+                "Singapore": {
+                    "reviewNum": 21,
+                    "rating": 4.76
+                }
+            },
+            "rating": {
+                "5": 2567,
+                "4": 283,
+                "3": 67,
+                "2": 8,
+                "1": 5
+            },
+            "aspectSentiment": {
+                "Horticulture": 2.75,
+                "Biodiversity": 2.68,
+                "Transportation & Accessibility": 2.44,
+                "Events": 2.38
+            }
+        }
+    },
+    "Singapore Mass Rapid Transit SMRT": {
+        "all": {
+            "overallSentiment": 4.83,
+            "reviewNum": 7221,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 429,
+                    "rating": 4.74
+                },
+                "Couples": {
+                    "reviewNum": 2579,
+                    "rating": 4.89
+                },
+                "Family": {
+                    "reviewNum": 1391,
+                    "rating": 4.83
+                },
+                "Friends": {
+                    "reviewNum": 677,
+                    "rating": 4.86
+                },
+                "Solo": {
+                    "reviewNum": 976,
+                    "rating": 4.66
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 6096,
+                    "rating": 4.84
+                },
+                "Other": {
+                    "reviewNum": 1098,
+                    "rating": 4.79
+                },
+                "Singapore": {
+                    "reviewNum": 27,
+                    "rating": 4.52
+                }
+            },
+            "rating": {
+                "5": 6509,
+                "4": 393,
+                "3": 206,
+                "1": 64,
+                "2": 49
+            },
+            "aspectSentiment": {
+                "Cleanliness": 2.26,
+                "Transportation & Accessibility": 2.19,
+                "Value for Money": 2.75
+            }
+        },
+        "last two years": {
+            "overallSentimentWeek": 4.84,
+            "reviewNum": 290,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 2,
+                    "rating": 5.0
+                },
+                "Couples": {
+                    "reviewNum": 39,
+                    "rating": 4.51
+                },
+                "Family": {
+                    "reviewNum": 15,
+                    "rating": 4.73
+                },
+                "Friends": {
+                    "reviewNum": 8,
+                    "rating": 5.0
+                },
+                "Solo": {
+                    "reviewNum": 23,
+                    "rating": 4.83
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 227,
+                    "rating": 4.85
+                },
+                "Other": {
+                    "reviewNum": 60,
+                    "rating": 4.82
+                },
+                "Singapore": {
+                    "reviewNum": 3,
+                    "rating": 5.0
+                }
+            },
+            "rating": {
+                "5": 264,
+                "4": 17,
+                "1": 4,
+                "3": 3,
+                "2": 2
+            },
+            "aspectSentiment": {
+                "Cleanliness": 2.16,
+                "Transportation & Accessibility": 2.11,
+                "Value for Money": 2.72
+            }
+        },
+        "last five years": {
+            "overallSentimentWeek": 4.84,
+            "reviewNum": 5665,
+            "visitorType": {
+                "Business": {
+                    "reviewNum": 314,
+                    "rating": 4.71
+                },
+                "Couples": {
+                    "reviewNum": 1962,
+                    "rating": 4.89
+                },
+                "Family": {
+                    "reviewNum": 1069,
+                    "rating": 4.83
+                },
+                "Friends": {
+                    "reviewNum": 488,
+                    "rating": 4.88
+                },
+                "Solo": {
+                    "reviewNum": 754,
+                    "rating": 4.67
+                }
+            },
+            "visitorLocation": {
+                "Foreign": {
+                    "reviewNum": 4760,
+                    "rating": 4.84
+                },
+                "Other": {
+                    "reviewNum": 888,
+                    "rating": 4.8
+                },
+                "Singapore": {
+                    "reviewNum": 17,
+                    "rating": 4.82
+                }
+            },
+            "rating": {
+                "5": 5117,
+                "4": 302,
+                "3": 162,
+                "1": 47,
+                "2": 37
+            },
+            "aspectSentiment": {
+                "Cleanliness": 2.25,
+                "Transportation & Accessibility": 2.16,
+                "Value for Money": 2.75
+            }
+        }
+    }
+}

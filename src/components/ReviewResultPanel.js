@@ -31,7 +31,7 @@ const ReviewResultPanel = ({ result }) => {
         </Col>
       </Row>
       
-      <Row justify="left" align="middle">
+      <Row justify="left" align="top">
         <Col span={12}> 
           <CustomPieChart title="Visitor Type Analysis" data={result.visitorType}/>
         </Col>

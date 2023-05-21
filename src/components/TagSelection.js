@@ -1,30 +1,14 @@
 import React, { useState } from 'react';
 import { useNavigate } from "react-router-dom";
 import { Select, Button, Modal, Row, Typography, List, Col, Tag} from 'antd';
+import FeaturesData from '../data/FeatureData';
+import Options from '../data/FeatureOptions';
+
+
 const {Title} = Typography;
 const { Option } = Select;
 
-    
-    
 
-const data = [
-  { name: 'Singapore Zoo', tags: ['nature', 'foreigner', 'family'] },
-  { name: 'Buddha Tooth Relic Temple and Museum', tags: ['shopping', 'single', 'couple', 'family'] },
-  { name: 'Jurong Bird Park', tags: ['nature', 'family'] },
-  { name: 'Flower Dome', tags: ['nature', 'couple'] },
-];
-
-const options = {
-  nature: 'green',
-  food: 'gold',
-  shopping: 'lime',
-  single: 'cyan',
-  couple: 'blue',
-  family: 'purple',
-  price: 'red',
-  foreigner: 'orange',
-  local: 'pink'
-};
 
 const TagSelection = ({}) => {
   const navigate  = useNavigate();
@@ -42,8 +26,9 @@ const TagSelection = ({}) => {
   };
 
   const handleSearch = () => {
-    const results = data.filter((place) =>
-      selectedTags.every((tag) => place.tags.includes(tag))
+    // alert(selectedTags);
+    const results = FeaturesData.filter((item) =>
+      selectedTags.every((tag) => item.features.includes(tag))
     );
     setFilteredPlaces(results);
     setVisible(true);
@@ -57,7 +42,7 @@ const TagSelection = ({}) => {
     const { label, value, closable, onClose } = props;
     return (
       <Tag
-        color={options[value]}
+        color={Options[value]}
         closable={closable}
         onClose={onClose}
         style={{ marginRight: 3, padding: 4, fontSize: 14}}
@@ -87,7 +72,7 @@ const TagSelection = ({}) => {
             defaultValue={['nature', 'family']}
             // options={options}
           >
-            {Object.keys(options).map((tag) => (
+            {Object.keys(Options).map((tag) => (
               <Option key={tag} value={tag} label={tag}>
                 {/* <div style={{ width: "fit-content", paddingLeft: 3, paddingRight: 3, borderRadius: 3, backgroundColor: tagColors[tag] }}>
                   {tag}
@@ -131,7 +116,7 @@ const TagSelection = ({}) => {
                       </div>
                     </Row>
                     <Row justify="left" style={{ display: "flex", justifyContent: "left", width: "100%" }}>
-                      {item.tags.map(tag => ( <Tag color={options[tag]}>{tag}</Tag>))}
+                      {item.tags.map(tag => ( <Tag color={Options[tag]}>{tag}</Tag>))}
                     </Row>
                   </Col>
                   

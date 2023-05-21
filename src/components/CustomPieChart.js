@@ -1,15 +1,26 @@
 
 
 import React from 'react';
-import { PieChart, Pie, Cell, Label } from 'recharts';
-import { Row, Col, Select, Typography } from 'antd';
+import { PieChart, Pie, Cell, Label,Tooltip } from 'recharts';
+import { Table } from 'antd';
+import "../App.css";
 
-const { Title } = Typography;
 
 const PieChartWithAnnotations = ({ title, data }) => {
-  const pieData = Object.entries(data).map(([key, value]) => ({ name: key, value: value }));
+  const pieData = Object.entries(data).map(([key, value]) => ({ name: key, value: value.reviewNum, rating: value.rating }));
   const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#D2691E'];
-
+  const columns = [
+    {
+      title: 'Group',
+      dataIndex: 'name',
+      key: 'name',
+    },
+    {
+      title: 'Score',
+      dataIndex: 'rating',
+      key: 'rating',
+    }
+  ];
   const renderCustomizedLabel = (props) => {
     const { cx, cy, midAngle, innerRadius, outerRadius, percent, index } = props;
     const RADIAN = Math.PI / 180;
@@ -34,15 +45,6 @@ const PieChartWithAnnotations = ({ title, data }) => {
     );
   };
 
-  // const renderCustomizedLabel = (props) => {
-  //   const { x, y, name } = props;
-  //   return (
-  //     <text x={x} y={y} textAnchor="middle" fontSize="14" fontWeight="bold" fill="#333">
-  //       {name}
-  //     </text>
-  //   );
-  // };
-
   const CustomLabel = ({ viewBox }) => {
     const { cx, cy } = viewBox;
     return (
@@ -51,6 +53,28 @@ const PieChartWithAnnotations = ({ title, data }) => {
       </text>
     );
   };
+
+  const CustomTooltip = ({ active, payload, label }) => {
+    if (active && payload && payload.length) {
+      return (
+        <div 
+          className="custom-tooltip" 
+          style={{
+            backgroundColor: '#f5f5f5', 
+            padding: '10px', 
+            borderRadius: '5px',
+            left: '320px', 
+            top: '0px' 
+          }}
+        >
+          <p className="label">{`${payload[0].name} group gives socre of ${payload[0].payload.rating} `}</p>
+        </div>
+      );
+    }
+    return null;
+  };
+
+ 
   
 
   return (
@@ -74,12 +98,17 @@ const PieChartWithAnnotations = ({ title, data }) => {
           ))}
           <Label content={<CustomLabel />} position="center" />
         </Pie>
-        
+        <Tooltip content={<CustomTooltip />} />
       </PieChart>
+      <Table className="custom-table" 
+            rowClassName="custom-row"
+            headerClassName="custom-header" 
+            columns={columns} 
+            dataSource={pieData} 
+            pagination={false} />
     </div>
-    
-      
   );
 };
+
 
 export default PieChartWithAnnotations;

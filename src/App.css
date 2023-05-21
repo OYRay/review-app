@@ -135,3 +135,34 @@
   filter: brightness(110%);
 }
 
+.custom-tooltip{
+  background-color: rgb(115, 49, 49)(255, 255, 255); /* or whatever color you want */
+}
+
+/* Change the table size and width */
+.custom-table {
+  width: 60%; /* Adjust to the desired width */
+ 
+}
+
+/* Change the header row color */
+.custom-table .ant-table-thead > tr > th {
+  background-color: #f1f1f1; /* Adjust to the desired color */
+}
+
+
+.custom-row .ant-table-cell {
+  background-color: #ffffff;
+  /* border: 1px solid #d9d9d9; */
+  font-size: 14px;
+  align-content: center;
+  align-self: center;
+  padding: 10px !important;
+}
+/* Add this rule to target the header cells */
+.ant-table-thead > tr > th {
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  padding: 10px !important;
+}

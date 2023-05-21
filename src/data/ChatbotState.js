@@ -19,7 +19,7 @@ const ChatbotState = [
   },
   { 
     action: 'AskPlace',
-    description: 'When user ask the information of a place, provide the information, e.g. I want to know more about Singapore Zoo',
+    description: 'When user mentions place name and ask the information of a place, provide the information, e.g. I want to know more about Singapore Zoo',
     slot: 'place', 
     response: ['Sure, this link provide information about this place.',
                 'Certainly, here\'s the information you need about this place.',
@@ -28,7 +28,7 @@ const ChatbotState = [
   },
   { 
     action: 'RequirPlace', 
-    description: 'When user describe the place he want to visit, suggest a place, e.g. I want to find a place that is good for playing with family',
+    description: 'When user want you fina or recommand the place he want to visit, suggest a place, e.g. I want to find a place that is good for playing with family',
     slot: 'place', 
     response: ['Here are the places you are looking for:', 
                'Based on your description, you might enjoy visiting these places:',

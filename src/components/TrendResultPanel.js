@@ -1,46 +1,22 @@
 import React from "react";
-import TrendBarChart from "./TrendBarChart";
-import SentimentBarChart from "./SentimentTrendBarChart"
+import TrendReviewNumBarChart from "./TrendReviewNumBarChart";
+import TrendSentimentBarChart from "./TrendSentimentBarChart"
 import {  Row, Typography, Col } from "antd";
 const { Title } = Typography;
 
 
 // import { Card } from "antd";
 
-const TrendResultPanel = ({ result }) => {
+const TrendResultPanel = ({ id }) => {
   return (
     <div>
       <Row>
-        {/* <Col span={12}>
-          <Row gutter={8} justify="left" align="bottom">
-            <Col span={12}>
-              <Title>{result.overallSentiment}</Title>
-            </Col>
-            <Col span={12}>
-              <p>{result.reviewNum} reviews</p>
-            </Col>
-          </Row>
-          <Row justify="left" align="middle">
-            <RatingBarChart data={result.rating}/>
-          </Row>
-        </Col>
-
-        <Col span={12}>
-          <SentimentRadarChart data={result.aspectSentiment}/>
-        </Col> */}
-        <TrendBarChart />
-        
+        <TrendReviewNumBarChart id={id}/>
       </Row>
       
-      
       <Row justify="left" align="middle" style={{paddingTop: 100}}>
-        <SentimentBarChart />
-        {/* <Col span={12}> 
-          <CustomPieChart title="Visitor Type Analysis" data={result.visitorType}/>
-        </Col>
-        <Col span={12}>
-          <CustomPieChart title="Visitor Location Analysis" data={result.visitorLocation}/>
-        </Col> */}
+        <TrendSentimentBarChart  id={id}/>
+       
       </Row>
     </div>
   );
